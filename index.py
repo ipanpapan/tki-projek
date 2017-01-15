@@ -17,7 +17,7 @@ def ringkas():
 		url = request.form['url']
 		count_sentence = request.form['count_sentence']
 		hasilAsli = summari(language, url, count_sentence)
-		return render_template("index.html", hasil=hasilAsli, url=url, title="Result of Summarization")
+		return render_template("index.html", hasil=hasilAsli, url=url, bahasa=language, jumlah=count_sentence, title="Result of Summarization")
 	except:
 		return redirect(url_for('alert'))
 
