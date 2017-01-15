@@ -1,0 +1,1297 @@
+databes.xml
+Detail
+Aktivitas
+HARI INI
+
+Irfan Elfakar mengupload satu item
+12.29
+XML
+databes.xml
+Tidak ada aktivitas yang direkam sebelum tanggal 6 Desember 2016
+Semua pilihan dibersihkan 
+Drive Tim baru
+
+<?xml version="1.0" encoding="UTF-8"?>
+<tanaman_inang>
+  <acacia_crassicarpa id="1">
+    <penyakit id="1">
+      <nama>Rebah Kecambah(Damping-off)</nama>
+      <deskripsi>
+		    <p>Penyakit rebah kecambah atau damping off merupakan penyakit yang umum terjadi di nursery. Serangan dapat terjadi dari fase bibit yang baru
+          ditanam sampai tanaman telah berakar (bibit cutting). Kelembaban tinggi karena penyiraman atau hujan, naungan terlalu gelap, sumber
+          inokulum pathogen yang melimpah, tanaman tidak sehat merupakan faktor pendukung utama. Musim hujan yang berkepanjangan harus diwaspadai terhadap
+          kemungkinan terjadinya 'outbreak'
+        </p>
+      </deskripsi>
+      <gejala>
+        <ciri>pucat</ciri>
+        <ciri>layu</ciri>
+        <ciri>roboh</ciri>
+        <ciri>mati</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Fusarium sp.</i></jamur>
+        <jamur><i>Pythium sp.</i></jamur>
+        <jamur><i>Rhizoctonia sp.</i></jamur>
+        <jamur><i>Botrytis sp.</i></jamur>
+        <jamur><i>Cylindrocladium sp.</i></jamur>
+        <jamur><i>Phytophthora sp.</i></jamur>
+        <bakteri><i>Ralstonia solanacearum</i></bakteri>
+      </patogen>
+      <penyebaran>
+        <melalui>Spora jamur dan propagul bakteri disebabkan melalui angin, air penyiraman dan peralatan nursery dan pekerja.</melalui>
+      	<melalui>Miselia jamur dapat berkembang dengan cepat dari satu titik tanaman yang terserang.</melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Pengaturan intensitas penyiraman, penjarangan dan sanitasi.</cara>
+        <cara>Sterilisasi media dengan menggunakan fumigan (chloropicrin, vorlex sebelum penaburan/tanam), dengan pemanasan dan fungisida.</cara>
+      	<cara>Sterilisasi seluruh perlengkapan untuk menanam benih (cutting).</cara>
+      	<cara>Membuang benih (bibit) yang sudah terserang.</cara>
+      	<cara>Penyemprotan fungisida berbahan aktif thiram (Tiflo), mankozeb (Dithane), ziram (Alterna) atau fungisida campuran misalnya Delsene 1-2 g/lt (1x/minggu untuk pencegahan dan 2x/minggu untuk pengendalian) menggunakan knapsack sprayer.</cara>
+        <cara>Pada kondisi kelembaban udara yang tinggi (hujan terus-menerus) penyemprotan dapat dilakukan 1-2 hari sekali dengan konsentrasi 1/4-1/2 dari konsentrasi anjuran. Dosis sesuai SOP penyiraman di nursery : 3 lt/m3 dengan embrat dan 1lt/m3 dengan semprot.</cara>
+        <cara>Penggunaan agents biologi (diantaranya Trichoderma sp., Gliocladium sp.) pada media tanam (1 kg/1m3) atau dengan penyemprotan spora cendawan.</cara>
+      </pengendalian>
+      <tempat>nursery</tempat>
+      <area_penyakit>kecambah</area_penyakit>
+    </penyakit>
+
+    <penyakit id="2">
+      <nama>Bercak Daun</nama>
+      <deskripsi>
+        <p>
+          Penyakit bercak daun, hawar daun, dan busuk batang adalah penyakit utama pada tanaman <i>Eucalyptus sp.</i> di nursery. Spora cendawan pathogen akan selalu
+          ada di nursery selama tanaman <i>Eucalyptus sp.</i> dibudidayakan. Umumnya "out break" penyakit ini disebabkan oleh kelembaban yang tinggi
+          (penyiraman atau hujan), masalah nutrisi, bibit yang berasal dari shoot yang jelek kulitasnya, spacing terlalu rapat, sumber inokium yang banyak,
+          kondisi nursery gelap dan kotor, dan faktor genetik tanaman atau jenis clone. Pada Acasia crassicarpa serangan terjadi akibat tanaman terlalu subur
+          dengan spacing yang rapat.
+        </p>
+      </deskripsi>
+      <gejala>
+        <ciri>Daun berbercak kemerahan, nerotik, akhirnya kering menyebar dan muncul titik - titik hitam.</ciri>
+        <ciri>Batang berbercak hitam, nekrotik, melebar, mengering, dan kemudian tumbuh tunas baru atau patah</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Cylindrocladium sp.</i></jamur>
+        <jamur><i>Kirramyces(Phaeophleopspora) sp.</i></jamur>
+      </patogen>
+      <penyebaran>
+		    Spora/miselia jamur menyebar melalui angin, air penyiraman, peralatan, kontak antara tanaman sehat dan sakit dan pekerja di nursery.
+      </penyebaran>
+      <pengendalian>
+        <cara>Pengaturan intensitas penyiraman (terutama pada musim penghujan) dan meningkatkan intensitas cahaya pada bibit yang masih dibawah naungan</cara>
+        <cara>Melakukan penjarangan bila tanaman nampak terlalu subur/hijau, rapat dan mulai muncul gejala penyakit yang semakin meningkat.</cara>
+        <cara>Memusnahkan daun yang terserang atau tanaman yang telah mati (sanitasi)</cara>
+        <cara>Memisahkan tanaman yang terserang berat, ringan, dan yang sehat.</cara>
+        <cara>Pemilihan shoot yang sehar dan berkualitas dari stool plant</cara>
+        <cara>
+          Penambahan frekuensi pemupukan atau konsentrasinya (untuk tanaman yang kurang nutrisi) dan pengurangan aplikasi pupuk N (untuk tanaman yang terlalu subur)
+        </cara>
+        <cara>
+          Penyemprotan fungisida berbahan aktif thiram (Tiflo), flusilazol (Nustar), difenokonazol (Score), mankozeb (Dithane) atau fungisida campuran
+          misalnya Delsene, Ridomil MZ (1x/minggu unutk pencegahan dan 2x/minggu untuk pengendalian), menggunakan knapsack sprayer. Untuk di stool plant (atau tanaman
+          yang masih dalam naungan) disarankan untuk menggunakan fungisida berbentuk cairan (misalnya Nustar &amp; Score). Dosis dan konsentrasi fungisida
+          sesuai anjuran yang tertera dalam kemasan.
+        </cara>
+        <cara>
+          Pada kondisi kelembaban udara yang tinggi (hujan terus - menerus) penyemprotan dapat dilakukan 1 - 2 hari sekali dengan konsentrasi 1/4 - 1/2 dari
+          konsentrasi anjuran.
+        </cara>
+        <cara>
+          Penggunaan agents biologi (diantaranya <i>Gliocladium sp.</i>, <i>Trichoderma sp.</i>) pada media tanam (1 kg/m^3) atau dengan penyemprotan spora ceedawan.
+        </cara>
+      </pengendalian>
+      <tempat>Nursery</tempat>
+      <area_penyakit>daun</area_penyakit>
+    </penyakit>
+
+    <penyakit id="3">
+      <nama>Busuk Akar(Root Rot Disease)</nama>
+      <gejala>
+        <ciri>penyakit mulai muncul saat tanaman berumur 2 bulan</ciri>
+      	<ciri>menguningnya daun dari bawah hingga pucuk yang diikuti dengan kelayuan dan gugurnya daun akhirnya tanaman kering dan mati</ciri>
+      	<ciri>akar berwarna kemerahan(rhizomorf) dan menebal karena tanah/pasir yang terjalin hifa dan menempel pada akar</ciri>
+      	<ciri>terdapat jaring-jaring miselium("mycelia mat") dibawah kulit kayu</ciri>
+      	<ciri>pada busuk akar putih, jalinan hifa berwarna putih menutupi sebagian besar permukaan akar</ciri>
+      	<ciri>kadangkala tubuh buah muncul pada kondisi kelembaban tinggi</ciri>
+      </gejala>
+      <patogen>
+        <jamur>Ganoderma philippii</jamur>
+        <jamur>G.australe</jamur>
+        <jamur>G.mastoporum</jamur>
+        <jamur>G.subresinosum</jamur>
+        <jamur>G.collosum(busuk akar merah)</jamur>
+        <jamur>Rigidoporus lignosus(busuk akar putih)</jamur>
+      </patogen>
+      <penyebaran>Penyebaran melalui kontak antara akar yang sehat dan akar tanaman sakit, inokulum pada bekas tunggul dan akar dari rotasi sebelumnya dan spora</penyebaran>
+      <pengendalian>
+        <cara>Dilakukan survey(monitoring) sebelum penanaman pada area yang terserang berat busuk akar</cara>
+        <cara>Pembongkaran tunggul terinfeksi (up root) pada spot-spot terinfeksi dan 2 baris pohon disekelilingnya ditreatment dengan biocontrol Cerrena(Trichoderma)</cara>
+        <cara>Penanaman tanaman atau clone resisten seperti Eucalyptus sp. atau netive spesies pada bekas lokasi yang terserang berat</cara>
+        <cara>Penanaman baru dilakukan diantara jalur atau tunggul tanaman sebelumnya</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Penyakit ini sudah dilaporkan menyerang di hampir semua plantation region Sinarmas Forestry</area_penyakit>
+    </penyakit>
+
+    <penyakit id="4">
+      <nama>Busuk Hati(Heart Rot Disease)</nama>
+      <gejala>
+        <ciri>Serangan lebih berbahaya dan mematikan pada tanaman Eucalyptus sp.</ciri>
+        <ciri>Pada tanaman muda gejala penyakit muncul 3 minggu setelah tanam dengan gejala sama dengan busuk akar</ciri>
+        <ciri>Pada tanaman di atas 1 tahun umumnya terjadi patah batang pada posisi tertentu atau roboh akibat infeksi yang terjadi lewat natural pruning ataupun lewat akar</ciri>
+        <ciri>Akar berwarna kehitaman atau normal dan tidak ada penebalan</ciri>
+        <ciri>Bagian tengah batang (hati kayu) mengalami pembusukan, berwarna keputihan, lunak dan akhirnya membentuk rongga(lubang)</ciri>
+        <ciri>Gejala dari luar adalah terjadinya kanker atau pembengkakan pada bekas ranting yang sudah gugur. Pada bagian yang membengkak tersebut terdapat getah yang berwarna kuning kecoklatan</ciri>
+        <ciri>Jalinan miselium (mycelia mat) terdapat pada batang</ciri>
+      </gejala>
+      <patogen>
+        <jamur>Phellinus noxius</jamur>
+        <jamur>Phellinus sp.</jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Penyebaran melalui spora atau arthrokonidia yang terbawa angin, air, serangga dan hewan</melalui>
+      	<melalui>Penyebaran melalui kontak antara akar yang sehat dan akar tanaman sakit atau inokulum pada bekas tunggul dan akar dari rotasi sebelumnya</melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Menghindari pelukaan pada tanaman</cara>
+        <cara>Penutupan luka bekas(singling) dan mengoleskan fungisida berbahan aktif tridemorph, PCNB, teer pada bekas singgling segera setelah singling dilakukan</cara>
+      	<cara>Pengendalian seperti pada perlakuan akibat serangan busuk akar yang disebabkan oleh Ganoderma sp.</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Sebaran serangan masih sulit dibedakan dengan sebaran serangan</area_penyakit>
+    </penyakit>
+
+    <penyakit id="5">
+      <nama>Keriting Daun (<i>Leaf Curl Disease</i>)</nama>
+      <deskripsi>
+          <p>Pada umumnya penyakit ini menyerang tanaman <i>Acacia crassicarpa</i> ketika sudah ditanam di plantation. Serangan di nursery umumnya terjadi pada tanaman yang sudah tua (lebih dari 3 bulan) atau pada seedlot tertentu yang rentan.</p>
+      </deskripsi>
+      <gejala>
+        <ciri>Daun berbercak kekuningan, menebal, berlekuk, nekrotik dan mengeras</ciri>
+        <ciri>Serangan terjadi dari setelah tanam sampai tanaman berumur 2 tahun</ciri>
+        <ciri>Menyerang di hampir seluruh tanaman A.crassicarpa di lahan gambut</ciri>
+        <ciri>Tidak mematikan tanaman tetapi dapat menghambat pertumbuhan tanaman</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Passalora perfelxa</i></jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Angin</melalui>
+      	<melalui>Air</melalui>
+        <melalui>Serangga</melalui>
+        <melalui>Hewan</melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Pemakaian bibit yang sehat dari nursery</cara>
+        <cara>Pemupukan dan pengendalian gulma sesuai SOP</cara>
+      	<cara>Penggunaan seedlot yang berlebih resisten</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Daun</area_penyakit>
+    </penyakit>
+
+    <penyakit id="6">
+      <nama>Bercak Daun (<i>Leaf Spot Disease</i>)</nama>
+      <gejala>
+        <ciri>Daun berbercak cokelat yang dibatasi lingkaran kekuningan (halo).</ciri>
+        <ciri>Daun berbercak cokelat besar yang menyebabkan kematian dan gugur daun.</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Phaeotrichconis crotalariae</i></jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Terbawa dari bibit nursery.</melalui>
+        <melalui>Tertular dengan perantara air, angin, serangga, dan hewan.</melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Mengurangi tingkat kelembaban di sekitar tanaman dengan pengendalian gulma secara teratur.</cara>
+        <cara>Pemupukan sesuai SOP</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Daun</area_penyakit>
+    </penyakit>
+
+    <penyakit id="7">
+      <nama>Embun Hitam (Black Mildew Disease)</nama>
+      <gejala>
+        <ciri>Dapat terjadi pada semua umur tanaman.</ciri>
+        <ciri>Lapisan kerak berwarna hitam pada permukaan daun.</ciri>
+        <ciri>Seluruh permukaan daun tertutup oleh lapisan kerak hitam.</ciri>
+        <ciri>Jenis clone Ep499 cenderung banyak terserang.</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Meliola sp.</i></jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Angin</melalui>
+        <melalui>Air</melalui>
+        <melalui>Semut</melalui>
+        <melalui>Hewan</melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Mengurangi tingkat kelembaban di sekitar tanaman dengan pengendalian gulma secara teratur.</cara>
+        <cara>Pemangkasan cabang sumber inokulum pada tanaman dewasa.</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Daun</area_penyakit>
+    </penyakit>
+
+    <penyakit id="8">
+      <nama>Hawar Daun</nama>
+      <deskripsi>
+        <p>
+          Penyakit bercak daun, hawar daun, dan busuk batang adalah penyakit utama pada tanaman Eucalyptus sp. di nursery. Spora cendawan pathogen akan selalu
+          ada di nursery selama tanaman Eucalyptus sp. dibudidayakan. Umumnya "out break" penyakit ini disebabkan oleh kelembaban yang tinggi
+          (penyiraman atau hujan), masalah nutrisi, bibit yang berasal dari shoot yang jelek kulitasnya, spacing terlalu rapat, sumber inokium yang banyak,
+          kondisi nursery gelap dan kotor, dan faktor genetik tanaman atau jenis clone. Pada Acasia crassicarpa serangan terjadi akibat tanaman terlalu subur
+          dengan spacing yang rapat.
+        </p>
+      </deskripsi>
+      <gejala>
+        <ciri>Daun berbercak kemerahan, nerotik, akhirnya kering menyebar dan muncul titik - titik hitam.</ciri>
+        <ciri>Batang berbercak hitam, nekrotik, melebar, mengering, dan kemudian tumbuh tunas baru atau patah</ciri>
+      </gejala>
+      <patogen>
+        <jamur>Cylindrocladium sp.</jamur>
+        <jamur>Kirramyces(Phaeophleopspora) sp.</jamur>
+      </patogen>
+      <penyebaran>
+		    Spora/miselia jamur menyebar melalui angin, air penyiraman, peralatan, kontak antara tanaman sehat dan sakit dan pekerja di nursery.
+      </penyebaran>
+      <pengendalian>
+        <cara>Pengaturan intensitas penyiraman (terutama pada musim penghujan) dan meningkatkan intensitas cahaya pada bibit yang masih dibawah naungan</cara>
+        <cara>Melakukan penjarangan bila tanaman nampak terlalu subur/hijau, rapat dan mulai muncul gejala penyakit yang semakin meningkat.</cara>
+        <cara>Memusnahkan daun yang terserang atau tanaman yang telah mati (sanitasi)</cara>
+        <cara>Memisahkan tanaman yang terserang berat, ringan, dan yang sehat.</cara>
+        <cara>Pemilihan shoot yang sehar dan berkualitas dari stool plant</cara>
+        <cara>
+          Penambahan frekuensi pemupukan atau konsentrasinya (untuk tanaman yang kurang nutrisi) dan pengurangan aplikasi pupuk N (untuk tanaman yang terlalu subur)
+        </cara>
+        <cara>
+          Penyemprotan fungisida berbahan aktif thiram (Tiflo), flusilazol (Nustar), difenokonazol (Score), mankozeb (Dithane) atau fungisida campuran
+          misalnya Delsene, Ridomil MZ (1x/minggu unutk pencegahan dan 2x/minggu untuk pengendalian), menggunakan knapsack sprayer. Untuk di stool plant (atau tanaman
+          yang masih dalam naungan) disarankan untuk menggunakan fungisida berbentuk cairan (misalnya Nustar &amp; Score). Dosis dan konsentrasi fungisida
+          sesuai anjuran yang tertera dalam kemasan.
+        </cara>
+        <cara>
+          Pada kondisi kelembaban udara yang tinggi (hujan terus - menerus) penyemprotan dapat dilakukan 1 - 2 hari sekali dengan konsentrasi 1/4 - 1/2 dari
+          konsentrasi anjuran.
+        </cara>
+        <cara>
+          Penggunaan agents biologi (diantaranya Gliocladium sp., Trichoderma sp.) pada media tanam (1 kg/m^3) atau dengan penyemprotan spora ceedawan.
+        </cara>
+      </pengendalian>
+      <tempat>Nursery</tempat>
+      <area_penyakit>daun</area_penyakit>
+    </penyakit>
+
+    <penyakit id="9">
+      <nama>Busuk Batang</nama>
+      <deskripsi>
+        <p>
+          Penyakit bercak daun, hawar daun, dan busuk batang adalah penyakit utama pada tanaman Eucalyptus sp. di nursery. Spora cendawan pathogen akan selalu
+          ada di nursery selama tanaman Eucalyptus sp. dibudidayakan. Umumnya "out break" penyakit ini disebabkan oleh kelembaban yang tinggi
+          (penyiraman atau hujan), masalah nutrisi, bibit yang berasal dari shoot yang jelek kulitasnya, spacing terlalu rapat, sumber inokium yang banyak,
+          kondisi nursery gelap dan kotor, dan faktor genetik tanaman atau jenis clone. Pada Acasia crassicarpa serangan terjadi akibat tanaman terlalu subur
+          dengan spacing yang rapat.
+        </p>
+      </deskripsi>
+      <gejala>
+        <ciri>Daun berbercak kemerahan, nerotik, akhirnya kering menyebar dan muncul titik - titik hitam.</ciri>
+        <ciri>Batang berbercak hitam, nekrotik, melebar, mengering, dan kemudian tumbuh tunas baru atau patah</ciri>
+      </gejala>
+      <patogen>
+        <jamur>Cylindrocladium sp.</jamur>
+        <jamur>Kirramyces(Phaeophleopspora) sp.</jamur>
+      </patogen>
+      <penyebaran>
+		    Spora/miselia jamur menyebar melalui angin, air penyiraman, peralatan, kontak antara tanaman sehat dan sakit dan pekerja di nursery.
+      </penyebaran>
+      <pengendalian>
+        <cara>Pengaturan intensitas penyiraman (terutama pada musim penghujan) dan meningkatkan intensitas cahaya pada bibit yang masih dibawah naungan</cara>
+        <cara>Melakukan penjarangan bila tanaman nampak terlalu subur/hijau, rapat dan mulai muncul gejala penyakit yang semakin meningkat.</cara>
+        <cara>Memusnahkan daun yang terserang atau tanaman yang telah mati (sanitasi)</cara>
+        <cara>Memisahkan tanaman yang terserang berat, ringan, dan yang sehat.</cara>
+        <cara>Pemilihan shoot yang sehar dan berkualitas dari stool plant</cara>
+        <cara>
+          Penambahan frekuensi pemupukan atau konsentrasinya (untuk tanaman yang kurang nutrisi) dan pengurangan aplikasi pupuk N (untuk tanaman yang terlalu subur)
+        </cara>
+        <cara>
+          Penyemprotan fungisida berbahan aktif thiram (Tiflo), flusilazol (Nustar), difenokonazol (Score), mankozeb (Dithane) atau fungisida campuran
+          misalnya Delsene, Ridomil MZ (1x/minggu unutk pencegahan dan 2x/minggu untuk pengendalian), menggunakan knapsack sprayer. Untuk di stool plant (atau tanaman
+          yang masih dalam naungan) disarankan untuk menggunakan fungisida berbentuk cairan (misalnya Nustar &amp; Score). Dosis dan konsentrasi fungisida
+          sesuai anjuran yang tertera dalam kemasan.
+        </cara>
+        <cara>
+          Pada kondisi kelembaban udara yang tinggi (hujan terus - menerus) penyemprotan dapat dilakukan 1 - 2 hari sekali dengan konsentrasi 1/4 - 1/2 dari
+          konsentrasi anjuran.
+        </cara>
+        <cara>
+          Penggunaan agents biologi (diantaranya Gliocladium sp., Trichoderma sp.) pada media tanam (1 kg/m^3) atau dengan penyemprotan spora ceedawan.
+        </cara>
+      </pengendalian>
+      <tempat>Nursery</tempat>
+      <area_penyakit>Batang</area_penyakit>
+    </penyakit>
+
+    <penyakit id="10">
+      <nama>Bercak Bergaris (<i>Leaf Stripe Disease</i>)</nama>
+      <deskripsi>
+          <p>
+              Penyakit bercak bergaris adalah penyakit utama yang menyerang tanaman <i>Acacia crassicarpa</i> di nursery. Serangan penyakit ini sangan dipengaruhi oleh nutrisi tanaman (pupuk), musim (penghujan), naungan, genetik, dan perawatan. Penyakit bercak bergaris tidak muncul atau sedikit menyerang pada tanaman yang cukup nutrisinya dan baik perawatannya.
+          </p>
+      </deskripsi>
+      <gejala>
+          <ciri>Pada awalnya bercak mamnjang (garis) kebasahan melebar dan kemudian mengering.</ciri>
+          <ciri>Serangan dapat berkembang dengan cepat pada musim hujan atau pada tanaman tanpa naungan atau di open area.</ciri>
+      </gejala>
+      <patogen>
+          <bakteri><i>Xanthomonas campestris</i> pv. <i>acaciae</i></bakteri>
+      </patogen>
+      <penyebaran>
+          <melalui>Propagul bakteri menyebar melalui air penyiraman, peralatan, saat penjarangan dan kontak antara tanaman sehat dan sakit.</melalui>
+      </penyebaran>
+      <pengendalian>
+          <cara>Memisahkan tanaman yang terserang dengan tanaman sehat sejak awal serangan terjadi.</cara>
+          <cara>Penambahan pupuk lengkap dengan kandungan unsur P dan atau K yang lebih tinggi, misalnya NPK 15:30:15 atau 15:15:30</cara>
+          <cara>Pengaturan intensitas dan dosis penyiraman pada saat musim kering atau hujan.</cara>
+          <cara>Pemberian naungan fiber atau plastik pada bibit sampai umur +- 40 hari.</cara>
+          <cara>Pemakaian pupup lengkap slow release sesuai SOP pada saat pembuatan media akan mengurangi terjadinya serangan.</cara>
+          <cara>Memusnahkan daun yang terserang atau yang rontok dan tanaman yang telah mati (sanitasi).</cara>
+          <cara>Penjarangan (mengurangi kepadatan tanaman dalam bedeng atau rak).</cara>
+          <cara>Penyemprotan bakterisida 2x/minggu untuk serangan berat dan 1x/minggu untuk serangan ringan (misalnya Agrept 0.5g/lt).</cara>
+          <cara>
+              Nursery yang sudah terserang harus lebih memperhatikan proses kerja dari persiapan media, perawatan sampai bibit siap tanam karena serangan akan terus muncul bila salah satu bagian tidak dilakukan dengan baik.
+          </cara>
+      </pengendalian>
+      <tempat>Nursery</tempat>
+      <area_penyakit>daun</area_penyakit>
+    </penyakit>
+
+    <penyakit id="11">
+      <nama>Layu Fusarium (<i>Fusarium Wilt Disease</i>)</nama>
+      <deskripsi>
+          <p>
+              Penyakit layu fusarium disebabkan oleh jamur <i>Fusarium</i> sp. yang menyerang tanaman dari mulai kecambah sampai bibit siap tanam. Serangan meningkat biasanya pada musim kemarau atau hujan yang panjang.
+          </p>
+      </deskripsi>
+      <gejala>
+          <ciri>Gejala serangan penyakit ini adalah daun menjadi kusam, pertulangan daun menjadi jelas, rontok dan pangkal batang mengecil dan hitam.</ciri>
+          <ciri>Serangan pada tanaman yang sudah besar (>2 bulan) tidak selalu menunjukkan pengecilan pengkal batang atau berubah menjadi kehitaman.</ciri>
+          <ciri>Myselia jamur dapat ditemukan diperakaran yang menbuat akar menjadi mengkerut, coklat, dan mati.</ciri>
+          <ciri>Pada beberapa tanaman muncul tunas baru dan sebagian tanaman dapat tumbuh sehat kembali.</ciri>
+      </gejala>
+      <patogen>
+          <jamur><i>Fusarium</i> sp.</jamur>
+      </patogen>
+      <penyebaran>
+          <melalui>Spora jamur dapat disebarkan melalui angin, air penyiraman dan peralatan nursery dan pekerja.</melalui>
+      </penyebaran>
+      <pengendalian>
+          <cara>Pengaturan penyiraman: outbreak pada musim kemarau disebabkan oleh proses penyiraman yang tidak merata sehingga sebagian tanaman mengalami layu permanen dan sebagian lagi kelebihan air (mengenan).</cara>
+          <cara>Penjarangan sesuai tinggi dan besar tanaman dan sanitasi bibit mati.</cara>
+          <cara>Mengurangi frekuensi, konsentrasi, dan dosis aplikasi pipik, terutama pupuk dengan kandungan N tinggi misalnya NPK, Urea.</cara>
+          <cara>meningkatkan frekuensi dan dosis aplikasi fungisida (2 - 3 kali/minggu) tetapi menurunkan konsentrasinya menjadi 0.5 atau 0.25 dari dosisi anjuran, misalnya dengan fungisida berbahan aktif thiram (Tiflo), Ziram (alterna), campuran (Delsene).</cara>
+      </pengendalian>
+      <tempat>Nursery</tempat>
+      <area_penyakit>daun</area_penyakit>
+    </penyakit>
+
+    <penyakit id="12">
+      <nama>Layu Fusarium (Fusarium Wilt Disease)</nama>
+      <deskripsi></deskripsi>
+      <gejala>
+        <ciri>Dapat terjadi pada tanaman berumur kurang dari 1 tahun.</ciri>
+        <ciri>Bercak hitam kebasahan pada ranting atau pangkal batang.</ciri>
+        <ciri>Tanaman layu sebagian atau keseluruhan.</ciri>
+        <ciri>Batang berwarna kecoklatan.</ciri>
+        <ciri>Tunas tanaman baru dapat muncul jika tanaman dapat dire-cover</ciri>
+        <ciri>Pangkal batang membusuk.</ciri>
+        <ciri>Adanya tepung putih di sekitar pangkal batang.</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Fusarium sp.</i></jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Endemik pada tanah dan terbawa bibit atau kompos</melalui>
+        <melalui>Lahan tergenang atau terlalu basah</melalui>
+        <melalui>Lokasi di tepi kanal</melalui>
+        <melalui>Lokasi lebih rendah dari kanal</melalui>
+        <melalui>Luka singling yang tidak ditutup fungisida</melalui>
+        <melalui>Penanaman bibit yang terlalu dalam</melalui>
+        <melalui></melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Mengurangi tingkat kelembaban di sekitar tanaman dengan pengendalian gulma secara teratur.</cara>
+        <cara>Pemangkasan cabang sumber inokulum pada tanaman dewasa.</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Daun</area_penyakit>
+    </penyakit>
+
+    <penyakit id="13">
+      <nama>Busuk Batang (<i>Stem Rod Disease</i>)</nama>
+      <deskripsi></deskripsi>
+      <gejala>
+        <ciri>Muncul bercak memangjang pada batang, mengering, dan akhirnya terbentuk lekukan ke dalam.</ciri>
+        <ciri>Bagian batang yang terserang akan mati, mengakibatkan batang mudah patah dan infeksi serangga penggerek batang (<i>stem borer</i>).</ciri>
+        <ciri>Gejala dapat diakibatkan oleh aplikasi herbisida kontak yang mengenai batang atau ranting.</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Cylindrocladium</i> sp.</jamur>
+        <jamur><i>Botryodiplodia</i> sp.</jamur>
+      </patogen>
+      <penyebaran>
+        Angin, serangga, bibit dari nursery, aplikasi herbisida kontak yang tidak benar.
+      </penyebaran>
+      <pengendalian>
+        <cara>Pemilihan bibit yang sehat dari nursery.</cara>
+        <cara>APlikasi herbisida kontak yang senar sesuai SOP.</cara>
+        <cara>Monitoring rutin kesehatan tanaman di plantation.</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Batang</area_penyakit>
+    </penyakit>
+
+    <penyakit id="14">
+      <nama>Kanker Batang (<i>Stem Cancer Disease</i>)</nama>
+      <deskripsi></deskripsi>
+      <gejala>
+        <ciri>Gejala awal seperti penyakit die back.</ciri>
+        <ciri>Gejala huga muncul sebagai akibat dari serangan Helopelthis sp.</ciri>
+        <ciri>Bagian jaringan tanaman yang terinfeksi (bark/kulit) menghitam, mati dan berkembang lapisan-lapisan hitam.</ciri>
+        <ciri>Secara bertahap jaringan kanker berkembang dan mengakibatkan batang/cabang menjadi membengkak/merekah</ciri>
+        <ciri>Tanaman terserang akan membentuk cabang yang banyak</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Botryodiplodia sp.</i></jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Angin</melalui>
+        <melalui>Serangga</melalui>
+        <melalui></melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Seleksi tanaman A.mangium yang resisten.</cara>
+        <cara>Mengganti spesies tanaman dengan tanaman lain yang lebih resisten.</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Batang</area_penyakit>
+    </penyakit>
+
+    <penyakit id="15">
+      <nama>Penyakit Ceratocystis (Ceratocystis Disease)</nama>
+      <deskripsi></deskripsi>
+      <gejala>
+        <ciri>Tanaman layu atau daun-daun mengering (mati) sebagian atau keseluruhan.</ciri>
+        <ciri>Pada batang terdapat bagian yang berlekuk, berwarna coklat/hitam, mengeras dan mengering, terdapat lubang bekas penggerek batang (ambrosia), terdapat bekas singling/pruning atau pelukaan pada batang.</ciri>
+        <ciri>Bila kulit batang dibuka akan nampak seperti sarang tawon madu yang masih segar "fresh honey comb" dan bila sudah mengering (mati) berwarna ungu keabu-abuan.</ciri>
+        <ciri>Pada bagian akar tidak ditemui gejala busuk akar dan pada bagian batang berwarna putih, tidak man seperti gejala serangan layu bakteri</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Ceratocystis sp.</i></jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Angin</melalui>
+        <melalui>Serangga (Penggerek)</melalui>
+        <melalui>Hama pengerat (tikus, tupai)</melalui>
+        <melalui>Mamalia (monyet, gajah)</melalui>
+        <melalui></melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Mengendalikan hama penggerek, pengerat dan mamalia.</cara>
+        <cara>Mengurangi pelukaan pada batang, luka akibat singling/pruning harus ditutup dengan teer atau fungisida.</cara>
+        <cara>Tidak boleh melakukan pruning</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Daun</area_penyakit>
+      <area_penyakit>Batang</area_penyakit>
+      <area_penyakit>Akar</area_penyakit>
+    </penyakit>
+
+    <hama id="1">
+      <nama>Hama Tungau</nama>
+      <deskripsi>
+        Tungau umumnya menyerang bibit yang tidak mendapatkan perawatan yang baik, berada di areal yang cukup teduh dan pada bibit yang tua.
+      </deskripsi>
+      <spesies><i>Tetranycus</i> sp (<i>Acarina; Tetranycidae</i>)</spesies>
+      <biologi_hama>
+        <ciri_hama>Ukuran tubuhnya sangat kecil.</ciri_hama>
+        <ciri_hama>Siklus hidup dimulai dari telur, nympha dan dewasa.</ciri_hama>
+        <ciri_hama>Dewasa berwarna merah dengan tungkai kekuningan.</ciri_hama>
+        <ciri_hama>Tungau merusak bibit dengan mengisap cairan tanaman.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Daun menjadi kekuningan dan kaku.</ciri>
+        <ciri>Selanjutnya daun akan mengering, terjadi perubahan bentuk (malformasi) dan mati.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Perawatan bibit dilkakukan secara kontinyu dan bibit yang afkir segera dibuang.</cara>
+        <cara>Dilakukan penyemprotan dengan akarisida/insektisida berbahan aktif amitraz 200 g/l (contoh Mitax 200 EC) dengan konsentrasi 1 - 2 cc/l air.</cara>
+      </pengendalian>
+      <tempat>nursery Distrik Minas, Kampar dan R&amp;D.</tempat>
+    </hama>
+
+    <hama id="2">
+      <nama>Hama Kutu Daun</nama>
+      <deskripsi>
+        <p>Kutu daun adalah hama yang sering ditemukan di nursery dalam jumlah yang kecil. Hama ini menghisap cairan tanaman dan berada pada pucuk atau di bawah permukaan daun yang masih muda. Semut sebagai faktor utama yang memindahkan nympha dari satu tanaman ke tanaman lain dan dengan bantuan angin.</p>
+      </deskripsi>
+      <spesies><i>Aphys</i> sp.</spesies>
+      <biologi_hama>
+        <ciri_hama>Ukuran tubuhnya sangat kecil.</ciri_hama>
+        <ciri_hama>Siklus hidup dimulai dari telur, nympha dan dewasa.</ciri_hama>
+        <ciri_hama>Dewasa bersayap dan menyebar dengan bantuan angin.</ciri_hama>
+        <ciri_hama>Kutu daun merusak bibit dengan mengisap cairan tanaman.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Daun terserang tidak berkembang normal, kecil, berlekuk dan ditemukan nympha pada permukaan bagian bawah daun.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Penyemprotan dengan insektisida yang umum digunakan, misalnya Deltametrin (misalnya decis 25 EC) 1-2 ml/lt air.</cara>
+      </pengendalian>
+    </hama>
+
+    <hama id="3">
+      <nama>Hama Ulat Grayak</nama>
+      <deskripsi>
+        <p>Ulat grayak menyerang tanaman <i>Acacia</i> sp. terutama pada pembibitan di polybag. Serangan berat terjadi sebagai akibat monitoring keberadaan telur, larva dan imago yang sudah terlambat.</p>
+      </deskripsi>
+      <spesies><i>Spodoptera litura</i>, (<i>Lepidoptera;Noctuidae</i>)</species>
+      <biologi_hama>
+        <ciri_hama>Stadia yang merusak adalah larva (ulat).</ciri_hama>
+        <ciri_hama>Hama ini aktif pada malam hari dan bersembunyi dalam tanah atau di bawah rak dan di bawah rak dan di bawah polybag pada siang hari.</ciri_hama>
+        <ciri_hama>Menyerang dalam jumlah populasi yang besar sehingga tanaman rusak dalam waktu singkat.</ciri_hama>
+        <ciri_hama>Populasi hama akan meningkat pada musim hujan.</ciri_hama>
+        <ciri_hama>Intensitas serangan cukup tinggi pada musim kemarau panjang yang diikuti musim hujan berat.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Daun berlubang dan bergigi.</ciri>
+        <ciri>Bila shoot atau pucuk tanaman habis dimakan ulat akan muncul tunas samping yang akan mengganggu pertumbuhan tanaman.</ciri>
+        <ciri>Pada serangan berat dapat mematikan tanaman dalam jumlah yang besar.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Melakukan monitoring secara teratur.</cara>
+        <cara>Mengumpulkan dan memusnahkan telur dan larva atau ulat secara rutin.</cara>
+        <cara>Memasang perangkap lampu pada malam hari (imago/kupu-kupu)</cara>
+        <cara>Melakukan penyemprotan insektisida berbahan aktif Metomil (misalnya Lannate 25 WP) dengan konsentrasi yang sama. Penyemprotan dilakukan pada sore atau malam hari.</cara>
+        <cara>Bibit pada polybag diletakkan pada rak-rak yang cukup tinggi atau membagi bedengan bibit dengan beberapa jalur atau sekat.</cara>
+      </pengendalian>
+      <tempat>Nursery Minas, Nursery Siak, Nursery Pulau Muda dan Nursery Makmur (BBD).</tempat>
+    </hama>
+
+    <hama id="4">
+      <nama>Hama Penghisap Pucuk</nama>
+      <deskripsi>
+        <p>Hama penghisap pucuk akan berkembang pesat bila didukung oleh kondisi lingkungan nursery yang lembab, teduh dan perawatan yang tidak maksimum. Kerusakan yang diakibatkannya adalah sangat fatal karena pucuk-pucuk bibit akan mati dan munculnya pathogen sekunder pada bekas hisapan.</p>
+      </deskripsi>
+      <spesies><i>Helopelthis</i> sp. (<i>hemiptera;Miridae</i>)</spesies>
+      <biologi_hama>
+        <ciri_hama>Ukuran kecil (dewasa 5-7 mm).</ciri_hama>
+        <ciri_hama>Abdomen (perut) berwarna hijau kebiruan, kepala, thorak, tungkai dan antena berwarna cokelat kekuningan, antene berbentuk filifom, sayap dua pasang berwarna abu-abu kehitaman.</ciri_hama>
+        <ciri_hama>Pada thorak ada tanda seperti jarum pentul yang warnanya sama dengan thorak.</ciri_hama>
+        <ciri_hama>Serangga muda (nimfa) berwarna hijau kekuningan dan belum bersayap.</ciri_hama>
+        <ciri_hama>Hama merusak dengan cara menghisap cairan tanaman.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Tunas muda yang baru tumbuh menjadi bercak-bercak cokelat hitam.</ciri>
+        <ciri>Serangan pada daun yang belum berkembang daun menjadi mengkerut.</ciri>
+        <ciri>Serangan pada tunas akan mematikan tunas tersebut sehingga muncul tunas-tunas samping yang menghambat pertumbuhan tanaman.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Melakukan monitoring dini untuk deteksi awal keberadaan hama <i>Helopelthis</i> sp.</cara>
+        <cara>Menjaga kelembaban dan kebersihan nursery.</cara>
+        <cara>Pengendalian secara kimia dengan penyemprotan insektisida berbahan aktif Metomil (misalnya Lannate 25 WP) dan Deltametrin (misalnya Decis 25 EC) dengan konsentrasi 12 gr atau ml/l air, Prefenofos 500g/lt (misalnya Pentacron) 0,5 ml/lt air. Penyemprotan dilakukan pagi hari atau sore hari.</cara>
+      </pengendalian>
+      <tempat>Nursery Duri, Nursery Minas, dan Nursery Sorek.</tempat>
+    </hama>
+
+    <hama id="5">
+      <nama>Hama Kumbang Pemakan Daun</nama>
+      <deskripsi>
+      </deskripsi>
+      <spesies><i>Hypomeces squamosus</i> (<i>Curculionidae;Coleoptera</i>)</spesies>
+      <biologi_hama>
+        <ciri_hama>Jenis kumbang dengan panjang tubuh 1,3-1,5 cm.</ciri_hama>
+        <ciri_hama>Tubuhnya ditutupi oleh tepung berwarna hijau kekuningan.</ciri_hama>
+        <ciri_hama>Stadia telur, larva dan pupa pada tanah kering.</ciri_hama>
+        <ciri_hama>Stadia yang merusak adalah bentuk kumbang.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Daun berlubang-lubang.</ciri>
+        <ciri>Daun dimakan secara tidak beraturan, tulang daun utama tidak dimakan.</ciri>
+        <ciri>Umumnya makan dari tepi daun.</ciri>
+        <ciri>Jika tanaman digerakkan, kumbang akan langsung menjatuhkan diri ke tanah.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Penyemprotan insektisida berbahan aktif Profenofos 500 g/lt (misalnya Pentacron) dengan konsentrasi 0,5-1 ml/lt air dengan alat mist blower.</cara>
+      </pengendalian>
+      <tempat>Nursery Distrik Minas.</tempat>
+    </hama>
+
+    <hama id="6">
+      <nama>Hama Belalang</nama>
+      <deskripsi>
+        Hama belalang ditemukan pada nursery yang baru dibuka atau terletak di dekat berlukar atau hutan. Srangan umumnya sporadis dan musiman.
+      </deskripsi>
+      <spesies><i>Valangan nigricornis (Acrididae : Orthoptera).</i></spesies>
+      <biologi_hama>
+        <ciri_hama>Belalang bertelur di awal musim kemarau dan menetas di awal musim hujan.</ciri_hama>
+        <ciri_hama>Telur diletakan pada tanah berpasir atau gembur.</ciri_hama>
+        <ciri_hama>Belalang dapat bertahan hidup 3 - 5 bulan.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Daun berlubang - lubang.</ciri>
+        <ciri>Daun dimakan secara tak beraturan, tulang daun utamam tidak dimakan.</ciri>
+        <ciri>Umumnya makan dari tepi daun.</ciri>
+        <ciri>Belalang dewasa dapat memakan bunga, daun, tunas, dan kulit acacia yang masih hijau.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Penyemprotan insektisida berbahan aktif Metomil (misalnya Lannate 25 WP), Profenofos 500g/lt (misalnya Pentacron) dengan konsentrasi 1 - 2 ml atau gr/l air.</cara>
+      </pengendalian>
+      <tempat>Nursery</tempat>
+    </hama>
+
+    <hama id="7">
+      <nama>Hama Jangkrik</nama>
+      <deskripsi>
+        Hama jangkrik menyerang tanaman di nursery polybag. Populasi jangkrik akan banyak ditemukan di nursery yang dekat dengan area bekas terbakar.
+      </deskripsi>
+      <spesies><i>Acheta domaticus</i> (Gryllidae : Orthoptera)</spesies>
+      <biologi_hama>
+        <ciri_hama>Jangkrik meletakkan telurnya pada tanah berpasir atau gembur yang lembab.</ciri_hama>
+        <ciri_hama>Satu ekor betina dapat menghasilkan telur sebanyak 200 - 700 teluryang dapat menetas 100% bila kondisi lingkungannya mendukung.</ciri_hama>
+        <ciri_hama>Nympha mengalami 2 kali ganti kulit.</ciri_hama>
+        <ciri_hama>Siklus hidup jangkrik adalah 15 minggu.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Adanya bekas luka bergerigi pada pangkal batang.</ciri>
+        <ciri>Pada serangan berat pangkal batang menjadi patah dan tanaman mati.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Bibit pada polybag atau tube diletakkan pada rak - rak yang cukup tinggi.</cara>
+        <cara>Menjaga kebersihan dan kerapian nursery.</cara>
+        <cara>Penyemprotan insektisida berbahan aktif metomil (misalnya Lannate 25 WP)</cara>
+        <cara>Profenofos 500 g/lt (misalnya Pentacron) dengan konsentrasi 1 - 2 ml atau gr/l air.</cara>
+      </pengendalian>
+      <tempat>Nursery</tempat>
+    </hama>
+
+    <hama id="8">
+      <deskripsi>
+        Hama kutu hijau adalah hama yang baru ditemukan yang menyerang pada tanaman <i>Acacia Crassicarpa</i> dan <i>A. Mangium</i>. Bioekologi hama ini belum banyak diketahui. Serangan ditemukan pada area yang beratap atau shade net.
+      </deskripsi>
+      <spesies>Belum teridentifikasi (Psyllidae : Homoptera)</spesies>
+      <biologi_hama>
+        <ciri_hama>Nimfa aktif bergerak, memiliki mata berwarna putih.</ciri_hama>
+        <ciri_hama>Dewasa (imago) bersayap aktif terbang bila diganggu.</ciri_hama>
+        <ciri_hama>Nimfa dan imago berwarna hijau muda dan terang.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Menyerang bibit mulai dari munculnya daun asli.</ciri>
+        <ciri>Daun asli tanaman <i>A. crassicarpa</i> dan <i>A. mangium</i> tidak berkembang sempurna dan sebagian anak daun menguning kemudia mengering.</ciri>
+        <ciri>pada serangan berat, daun palsu (pylloid) juga berkembang tidak normal, jarak antar daun (node) pendek dan tanaman menjadi kerdil.</ciri>
+        <ciri>Imago dan nimfa banyak ditemukan di permukaan daun bagian bawah.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Monitoring rutin terhadap keberadaan imago, nimfa, dan pupa kutu hijau.</cara>
+        <cara>Penyemprotan insektisida berbahan aktif Imidakloprid (misalnya Dagger) dengan konsentrasi 0.5 - 1 ml/lt, Metomil (misalnya Lannate 25 WP) dengan konsentrasi 1 - 2 gr/lt ait, 2x/minggu untuk serangan berat dengan konsentrasi setengah lebih rendan dan 1x/minggu untuk yang ringan dengan konsentrasi normal.</cara>
+      </pengendalian>
+      <tempat>Nursery</tempat>
+    </hama>
+
+    <hama id="9">
+      <nama>Hama Thrips</nama>
+      <deskripsi>
+        Hama Thrips terutama menyerang tanaman <i>Acacia crassicarpa</i> seedling yang masih berada di bawah atau umur kurang dari 1.5 bulan. hama ini juga dapat menyerang bibit <i>Eucalyptus pellita</i> pada tahap awal perkembangan ssetelah transplanting.
+      </deskripsi>
+      <spesies><i>Scirtothrips</i> sp.</spesies>
+      <biologi_hama>
+        <ciri_hama>Nympha berukuran kurang dari 1 mm dan imago bersayap umbai dengan ukuran sekitar 1 mm, berwarna kekuningan.</ciri_hama>
+        <ciri_hama>Berkembang biak dengan partenogenesis dan menyebar dengen bantuan angin (dewasa), peralatan, manusia, dan perpindahan rak bibit.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Pucuk - pucuk daun <i>A. crassicarpa</i> menguning dan mengering.</ciri>
+        <ciri>Phyloid melengkung, kaku, kecil, dan terdapat guratan - guratan bekas rautan hama.</ciri>
+        <ciri>Pada bibit plantlet <i>E. pellita</i> mengakibatkan daun berbentuk seperti sabit dan kerutan daun dapat dilihat pada permukaan daun bagian bawah.</ciri>
+        <ciri>Serangan berat dapat menyebabkan jarak antar node memendek sehingga pertumbuhan tanaman terganggu atau kerdil.</ciri>
+      </gejala>
+      <tempat>Nursery</tempat>
+    </hama>
+
+    <hama id="10">
+      <nama>Ulat Penjalin Daun</nama>
+      <deskripsi></deskripsi>
+      <spesies>Belum teridentifikasi (Lepidoptera)</spesies>
+      <biologi_hama>
+        <ciri_hama>Hama berkembang dnegan siklus metamorfosis sempurna.</ciri_hama>
+        <ciri_hama>Stadia yang merusak adalah larva (ulat) yang selama hidupnya membuat lebih dari satu gulungan.</ciri_hama>
+        <ciri_hama>Ulat berukuran kecil, berwarna kehijauan (Acacia) dan jika disentuj ulat akan bergerak cepat (melompat)</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Beberapa daun dalam satu tanaman atau pada tanaman yang berdekatan saling terjalin/terekat dengan membentuk gulungan atau jalinan.</ciri>
+        <ciri>Daun daun yang terjalin menjadi berlubang atau terpotong.</ciri>
+        <ciri>Serangan pada pucuk mengakibatkan munculnya tunas samping.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Monitoring keberadaan serangga hama secara terus menerus.</cara>
+        <cara>Penyemprotan insektisida kontak dan racun lambung berbahan aktif profenofos (pentacron), metomil (lannate), esfenvalerat (sumialpha), dan triazofos (hostation) dengan konsentrasi 1 - 2 ml/lt</cara>
+      </pengendalian>
+      <tempat>Nursery</tempat>
+    </hama>
+  </acacia_crassicarpa>
+
+  <acacia_mangium id="2">
+    <penyakit id="1">
+      <nama>Busuk Akar(Root Rot Disease)</nama>
+      <gejala>
+        <ciri>penyakit mulai muncul saat tanaman berumur 2 bulan</ciri>
+        <ciri>menguningnya daun dari bawah hingga pucuk yang diikuti dengan kelayuan dan gugurnya daun akhirnya tanaman kering dan mati</ciri>
+        <ciri>akar berwarna kemerahan(rhizomorf) dan menebal karena tanah/pasir yang terjalin hifa dan menempel pada akar</ciri>
+        <ciri>terdapat jaring-jaring miselium("mycelia mat") dibawah kulit kayu</ciri>
+        <ciri>pada busuk akar putih, jalinan hifa berwarna putih menutupi sebagian besar permukaan akar</ciri>
+        <ciri>kadangkala tubuh buah muncul pada kondisi kelembaban tinggi</ciri>
+      </gejala>
+      <patogen>
+        <jamur>Ganoderma philippii</jamur>
+        <jamur>G.australe</jamur>
+        <jamur>G.mastoporum</jamur>
+        <jamur>G.subresinosum</jamur>
+        <jamur>G.collosum(busuk akar merah)</jamur>
+        <jamur>Rigidoporus lignosus(busuk akar putih)</jamur>
+      </patogen>
+      <penyebaran>Penyebaran melalui kontak antara akar yang sehat dan akar tanaman sakit, inokulum pada bekas tunggul dan akar dari rotasi sebelumnya dan spora</penyebaran>
+      <pengendalian>
+        <cara>Dilakukan survey(monitoring) sebelum penanaman pada area yang terserang berat busuk akar</cara>
+        <cara>Pembongkaran tunggul terinfeksi (up root) pada spot-spot terinfeksi dan 2 baris pohon disekelilingnya ditreatment dengan biocontrol Cerrena(Trichoderma)</cara>
+        <cara>Penanaman tanaman atau clone resisten seperti Eucalyptus sp. atau netive spesies pada bekas lokasi yang terserang berat</cara>
+        <cara>Penanaman baru dilakukan diantara jalur atau tunggul tanaman sebelumnya</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Penyakit ini sudah dilaporkan menyerang di hampir semua plantation region Sinarmas Forestry</area_penyakit>
+    </penyakit>
+
+    <penyakit id="2">
+      <nama>Busuk Hati(Heart Rot Disease)</nama>
+      <gejala>
+        <ciri>Serangan lebih berbahaya dan mematikan pada tanaman Eucalyptus sp.</ciri>
+        <ciri>Pada tanaman muda gejala penyakit muncul 3 minggu setelah tanam dengan gejala sama dengan busuk akar</ciri>
+        <ciri>Pada tanaman di atas 1 tahun umumnya terjadi patah batang pada posisi tertentu atau roboh akibat infeksi yang terjadi lewat natural pruning ataupun lewat akar</ciri>
+        <ciri>Akar berwarna kehitaman atau normal dan tidak ada penebalan</ciri>
+        <ciri>Bagian tengah batang (hati kayu) mengalami pembusukan, berwarna keputihan, lunak dan akhirnya membentuk rongga(lubang)</ciri>
+        <ciri>Gejala dari luar adalah terjadinya kanker atau pembengkakan pada bekas ranting yang sudah gugur. Pada bagian yang membengkak tersebut terdapat getah yang berwarna kuning kecoklatan</ciri>
+        <ciri>Jalinan miselium (mycelia mat) terdapat pada batang</ciri>
+      </gejala>
+      <patogen>
+        <jamur>Phellinus noxius</jamur>
+        <jamur>Phellinus sp.</jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Penyebaran melalui spora atau arthrokonidia yang terbawa angin, air, serangga dan hewan</melalui>
+        <melalui>Penyebaran melalui kontak antara akar yang sehat dan akar tanaman sakit atau inokulum pada bekas tunggul dan akar dari rotasi sebelumnya</melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Menghindari pelukaan pada tanaman</cara>
+        <cara>Penutupan luka bekas(singling) dan mengoleskan fungisida berbahan aktif tridemorph, PCNB, teer pada bekas singgling segera setelah singling dilakukan</cara>
+        <cara>Pengendalian seperti pada perlakuan akibat serangan busuk akar yang disebabkan oleh Ganoderma sp.</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Sebaran serangan masih sulit dibedakan dengan sebaran serangan</area_penyakit>
+    </penyakit>
+
+    <penyakit id="3">
+      <nama>Embun Hitam (Black Mildew Disease)</nama>
+      <gejala>
+        <ciri>Dapat terjadi pada semua umur tanaman.</ciri>
+        <ciri>Lapisan kerak berwarna hitam pada permukaan daun.</ciri>
+        <ciri>Seluruh permukaan daun tertutup oleh lapisan kerak hitam.</ciri>
+        <ciri>Jenis clone Ep499 cenderung banyak terserang.</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Meliola sp.</i></jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Angin</melalui>
+        <melalui>Air</melalui>
+        <melalui>Semut</melalui>
+        <melalui>Hewan</melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Mengurangi tingkat kelembaban di sekitar tanaman dengan pengendalian gulma secara teratur.</cara>
+        <cara>Pemangkasan cabang sumber inokulum pada tanaman dewasa.</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Daun</area_penyakit>
+    </penyakit>
+
+    <penyakit id="4">
+      <nama>Layu Fusarium (Fusarium Wilt Disease)</nama>
+      <gejala>
+        <ciri>Dapat terjadi pada tanaman berumur kurang dari 1 tahun.</ciri>
+        <ciri>Bercak hitam kebasahan pada ranting atau pangkal batang.</ciri>
+        <ciri>Tanaman layu sebagian atau keseluruhan.</ciri>
+        <ciri>Batang berwarna kecoklatan.</ciri>
+        <ciri>Tunas tanaman baru dapat muncul jika tanaman dapat dire-cover</ciri>
+        <ciri>Pangkal batang membusuk.</ciri>
+        <ciri>Adanya tepung putih di sekitar pangkal batang.</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Fusarium sp.</i></jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Endemik pada tanah dan terbawa bibit atau kompos</melalui>
+        <melalui>Lahan tergenang atau terlalu basah</melalui>
+        <melalui>Lokasi di tepi kanal</melalui>
+        <melalui>Lokasi lebih rendah dari kanal</melalui>
+        <melalui>Luka singling yang tidak ditutup fungisida</melalui>
+        <melalui>Penanaman bibit yang terlalu dalam</melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Mengurangi tingkat kelembaban di sekitar tanaman dengan pengendalian gulma secara teratur.</cara>
+        <cara>Pemangkasan cabang sumber inokulum pada tanaman dewasa.</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Daun</area_penyakit>
+    </penyakit>
+
+    <penyakit id="5">
+      <nama>Penyakit Tepung</nama>
+      <deskripsi>
+        <p>
+            Penyakit ini terutama terjadi pada musim penghujan, kondisi kelembaban nursery yang tinggu atau stool plant yang shootnya terlalu panjang. Serangan terjadi terutama pada stool plant atau tanaman
+            yang masih berada dalam naungan.
+        </p>
+      </deskripsi>
+      <gejala>
+        <ciri>Muncul bercak putih pada daun seperti kapas tipis, melebar menutupi sebagian atau seluruh permukaan daun.</ciri>
+        <ciri>Bercak muncul dimulai pada dun bawah (tua) dan menyebar ke daun yang lebih muda.</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Oidium</i> sp.</jamur>
+        <jamur><i>Erysiphe</i> sp.</jamur>
+        <jamur><i>Spaerotheca</i> sp.</jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Spora/miselia jamur menyebar melalui angin, air penyiraman dan perlatan.</melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Menambah intensitas cahaya masuk atau penjarangan.</cara>
+        <cara>Menurunkan kelembaban udara dengan pengaturan penyiraman.</cara>
+        <cara>Memusnahan daun yang terserang (sanitasi).</cara>
+        <cara>Penyemprotan fungisida berbahan aktif flusilazol (Nustar 0,1 ml/lt), difenokonazol (Score 0,2 ml/lt), fungisida campuran misalnya Delsene (1 - 2 g/lt), (1x/minggu untuk pencegahan dan 2x/minggu untuk pengendalian).</cara>
+      </pengendalian>
+      <tempat>Nursery</tempat>
+      <area_penyakit>Daun</area_penyakit>
+    </penyakit>
+
+    <penyakit id="6">
+        <nama>Penyakit Cacar Daun (<i>Phyllode Rust</i>)</nama>
+        <deskripsi>
+            <p>Pathogen cacar daun adalah jamur kelas basidiomycetes dan bersifat obligat (hanya hidup pada jaringan hidup) sehingga tidak bisa dibiakkan di laboratorium. Sumber inokulum di CMA atau lapangan dapat menyebar di pembibitan/nursery melalui shoot bergejala yang diambil.</p>
+        </deskripsi>
+        <gejala>
+            <ciri>Muncul benjolan kecil yang makin membesar pada daun, menebal, berkeluk, dan daun menjadi kaku/keras.</ciri>
+            <ciri>Spora coklat kehitaman akan muncul pada benjolan yang sudah tau.</ciri>
+        </gejala>
+        <patogen>
+            <jamur><i>Atelocauda digitata</i></jamur>
+        </patogen>
+        <penyebaran>
+            <melalui>Spora jamur menyebar lewat peralatan, manusia, percikan air, dan kontak antara tanaman sehat dan sakit.</melalui>
+        </penyebaran>
+        <pengendalian>
+            <cara>Menghilangkan sumber infeksi dengan pemangkasan daun terserang.</cara>
+            <cara>Segera setelah pemangkasan, dilakukan penyemprotan fungisida berbahan aktif tembaga seperti tembaga oksiclorida (Cupravit OB 21), fungisida sistemik berbahan aktif triadimefon (Bayfidan) atau heksakonazol (Anvil).</cara>
+            <cara>Menanam tanaman resisten terhadap penyakit ini.</cara>
+        </pengendalian>
+        <tempat>Plantation</tempat>
+        <area_penyakit>Daun</area_penyakit>
+    </penyakit>
+
+    <penyakit id="7">
+      <nama>Rebah Kecambah(Damping-off)</nama>
+      <deskripsi>
+		    <p>Penyakit rebah kecambah atau damping off merupakan penyakit yang umum terjadi di nursery. Serangan dapat terjadi dari fase bibit yang baru
+          ditanam sampai tanaman telah berakar (bibit cutting). Kelembaban tinggi karena penyiraman atau hujan, naungan terlalu gelap, sumber
+          inokulum pathogen yang melimpah, tanaman tidak sehat merupakan faktor pendukung utama. Musim hujan yang berkepanjangan harus diwaspadai terhadap
+          kemungkinan terjadinya 'outbreak'
+        </p>
+      </deskripsi>
+      <gejala>
+        <ciri>pucat</ciri>
+        <ciri>layu</ciri>
+        <ciri>roboh</ciri>
+        <ciri>mati</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Fusarium sp.</i></jamur>
+        <jamur><i>Pythium sp.</i></jamur>
+        <jamur><i>Rhizoctonia sp.</i></jamur>
+        <jamur><i>Botrytis sp.</i></jamur>
+        <jamur><i>Cylindrocladium sp.</i></jamur>
+        <jamur><i>Phytophthora sp.</i></jamur>
+        <bakteri><i>Ralstonia solanacearum</i></bakteri>
+      </patogen>
+      <penyebaran>
+        <melalui>Spora jamur dan propagul bakteri disebabkan melalui angin, air penyiraman dan peralatan nursery dan pekerja.</melalui>
+      	<melalui>Miselia jamur dapat berkembang dengan cepat dari satu titik tanaman yang terserang.</melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Pengaturan intensitas penyiraman, penjarangan dan sanitasi.</cara>
+        <cara>Sterilisasi media dengan menggunakan fumigan (chloropicrin, vorlex sebelum penaburan/tanam), dengan pemanasan dan fungisida.</cara>
+      	<cara>Sterilisasi seluruh perlengkapan untuk menanam benih (cutting).</cara>
+      	<cara>Membuang benih (bibit) yang sudah terserang.</cara>
+      	<cara>Penyemprotan fungisida berbahan aktif thiram (Tiflo), mankozeb (Dithane), ziram (Alterna) atau fungisida campuran misalnya Delsene 1-2 g/lt (1x/minggu untuk pencegahan dan 2x/minggu untuk pengendalian) menggunakan knapsack sprayer.</cara>
+        <cara>Pada kondisi kelembaban udara yang tinggi (hujan terus-menerus) penyemprotan dapat dilakukan 1-2 hari sekali dengan konsentrasi 1/4-1/2 dari konsentrasi anjuran. Dosis sesuai SOP penyiraman di nursery : 3 lt/m3 dengan embrat dan 1lt/m3 dengan semprot.</cara>
+        <cara>Penggunaan agents biologi (diantaranya Trichoderma sp., Gliocladium sp.) pada media tanam (1 kg/1m3) atau dengan penyemprotan spora cendawan.</cara>
+      </pengendalian>
+      <tempat>nursery</tempat>
+      <area_penyakit>kecambah</area_penyakit>
+    </penyakit>
+
+    <penyakit id="8">
+      <nama>Layu Fusarium (Fusarium Wilt Disease)</nama>
+      <deskripsi></deskripsi>
+      <gejala>
+        <ciri>Dapat terjadi pada tanaman berumur kurang dari 1 tahun.</ciri>
+        <ciri>Bercak hitam kebasahan pada ranting atau pangkal batang.</ciri>
+        <ciri>Tanaman layu sebagian atau keseluruhan.</ciri>
+        <ciri>Batang berwarna kecoklatan.</ciri>
+        <ciri>Tunas tanaman baru dapat muncul jika tanaman dapat dire-cover</ciri>
+        <ciri>Pangkal batang membusuk.</ciri>
+        <ciri>Adanya tepung putih di sekitar pangkal batang.</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Fusarium sp.</i></jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Endemik pada tanah dan terbawa bibit atau kompos</melalui>
+        <melalui>Lahan tergenang atau terlalu basah</melalui>
+        <melalui>Lokasi di tepi kanal</melalui>
+        <melalui>Lokasi lebih rendah dari kanal</melalui>
+        <melalui>Luka singling yang tidak ditutup fungisida</melalui>
+        <melalui>Penanaman bibit yang terlalu dalam</melalui>
+        <melalui></melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Mengurangi tingkat kelembaban di sekitar tanaman dengan pengendalian gulma secara teratur.</cara>
+        <cara>Pemangkasan cabang sumber inokulum pada tanaman dewasa.</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Daun</area_penyakit>
+    </penyakit>
+
+    <penyakit id="9">
+      <nama>Kanker Batang (<i>Stem Cancer Disease</i>)</nama>
+      <deskripsi></deskripsi>
+      <gejala>
+        <ciri>Gejala awal seperti penyakit die back.</ciri>
+        <ciri>Gejala huga muncul sebagai akibat dari serangan Helopelthis sp.</ciri>
+        <ciri>Bagian jaringan tanaman yang terinfeksi (bark/kulit) menghitam, mati dan berkembang lapisan-lapisan hitam.</ciri>
+        <ciri>Secara bertahap jaringan kanker berkembang dan mengakibatkan batang/cabang menjadi membengkak/merekah</ciri>
+        <ciri>Tanaman terserang akan membentuk cabang yang banyak</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Botryodiplodia sp.</i></jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Angin</melalui>
+        <melalui>Serangga</melalui>
+        <melalui></melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Seleksi tanaman A.mangium yang resisten.</cara>
+        <cara>Mengganti spesies tanaman dengan tanaman lain yang lebih resisten.</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Batang</area_penyakit>
+    </penyakit>
+
+    <penyakit id="10">
+      <nama>Penyakit Ceratocystis (Ceratocystis Disease)</nama>
+      <deskripsi></deskripsi>
+      <gejala>
+        <ciri>Tanaman layu atau daun-daun mengering (mati) sebagian atau keseluruhan.</ciri>
+        <ciri>Pada batang terdapat bagian yang berlekuk, berwarna coklat/hitam, mengeras dan mengering, terdapat lubang bekas penggerek batang (ambrosia), terdapat bekas singling/pruning atau pelukaan pada batang.</ciri>
+        <ciri>Bila kulit batang dibuka akan nampak seperti sarang tawon madu yang masih segar "fresh honey comb" dan bila sudah mengering (mati) berwarna ungu keabu-abuan.</ciri>
+        <ciri>Pada bagian akar tidak ditemui gejala busuk akar dan pada bagian batang berwarna putih, tidak man seperti gejala serangan layu bakteri</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Ceratocystis sp.</i></jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Angin</melalui>
+        <melalui>Serangga (Penggerek)</melalui>
+        <melalui>Hama pengerat (tikus, tupai)</melalui>
+        <melalui>Mamalia (monyet, gajah)</melalui>
+        <melalui></melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Mengendalikan hama penggerek, pengerat dan mamalia.</cara>
+        <cara>Mengurangi pelukaan pada batang, luka akibat singling/pruning harus ditutup dengan teer atau fungisida.</cara>
+        <cara>Tidak boleh melakukan pruning</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Daun</area_penyakit>
+      <area_penyakit>Batang</area_penyakit>
+      <area_penyakit>Akar</area_penyakit>
+    </penyakit>
+
+    <penyakit id="11">
+      <nama>Cacar daun (<i>Phyllode Rust Disease</i>)</nama>
+      <deskripsi></deskripsi>
+      <gejala>
+        <ciri>Awalnya bercak kuning terang, lalu menjadi coklat kehitaman.</ciri>
+        <ciri>Terjadi penebalan pada jaringan daun yang akhirnya membengkak menjadi puru/cacar. Infeksi terjadi pada daun, bunga, pucuk, tangkai daun dan buah.</ciri>
+      </gejala>
+      <patogen>
+        <jamur><i>Atelocauda digitata</i></jamur>
+      </patogen>
+      <penyebaran>
+        <melalui>Terbawa bibit</melalui>
+        <melalui>Transportasi</melalui>
+        <melalui>Peralatan</melalui>
+        <melalui>Manusia</melalui>
+        <melalui>Hewan</melalui>
+        <melalui></melalui>
+      </penyebaran>
+      <pengendalian>
+        <cara>Menyeleksi dan membuang (eradikasi) bibit terinfeksi di nursery sebelum dibawa ke lapangan.</cara>
+        <cara>Pengurangan sumber inokulum dengan memangkas bagian tanaman induk yang bergejala dan memusnahkannya.</cara>
+        <cara>Menanam tanaman atau klon yang lebih resisten</cara>
+      </pengendalian>
+      <tempat>Plantation</tempat>
+      <area_penyakit>Daun</area_penyakit>
+    </penyakit>
+
+    <hama id="1">
+      <nama>Hama Tungau</nama>
+      <deskripsi>
+      	Tungau umumnya menyerang bibit yang tidak mendapatkan perawatan yang baik, berada di areal yang cukup teduh dan pada bibit yang tua.
+      </deskripsi>
+      <spesies><i>Tetranycus</i> sp (<i>Acarina; Tetranycidae</i>)</spesies>
+      <biologi_hama>
+        <ciri_hama>Ukuran tubuhnya sangat kecil.</ciri_hama>
+        <ciri_hama>Siklus hidup dimulai dari telur, nympha dan dewasa.</ciri_hama>
+        <ciri_hama>Dewasa berwarna merah dengan tungkai kekuningan.</ciri_hama>
+        <ciri_hama>Tungau merusak bibit dengan mengisap cairan tanaman.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Daun menjadi kekuningan dan kaku.</ciri>
+        <ciri>Selanjutnya daun akan mengering, terjadi perubahan bentuk (malformasi) dan mati.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Perawatan bibit dilkakukan secara kontinyu dan bibit yang afkir segera dibuang.</cara>
+        <cara>Dilakukan penyemprotan dengan akarisida/insektisida berbahan aktif amitraz 200 g/l (contoh Mitax 200 EC) dengan konsentrasi 1 - 2 cc/l air.</cara>
+      </pengendalian>
+      <tempat>nursery Distrik Minas, Kampar dan R&amp;D.</tempat>
+    </hama>
+
+    <hama id="2">
+      <nama>Hama Kutu Daun</nama>
+      <deskripsi>
+        <p>Kutu daun adalah hama yang sering ditemukan di nursery dalam jumlah yang kecil. Hama ini menghisap cairan tanaman dan berada pada pucuk atau di bawah permukaan daun yang masih muda. Semut sebagai faktor utama yang memindahkan nympha dari satu tanaman ke tanaman lain dan dengan bantuan angin.</p>
+      </deskripsi>
+      <spesies><i>Aphys</i> sp.</spesies>
+      <biologi_hama>
+        <ciri_hama>Ukuran tubuhnya sangat kecil.</ciri_hama>
+        <ciri_hama>Siklus hidup dimulai dari telur, nympha dan dewasa.</ciri_hama>
+        <ciri_hama>Dewasa bersayap dan menyebar dengan bantuan angin.</ciri_hama>
+        <ciri_hama>Kutu daun merusak bibit dengan mengisap cairan tanaman.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Daun terserang tidak berkembang normal, kecil, berlekuk dan ditemukan nympha pada permukaan bagian bawah daun.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Penyemprotan dengan insektisida yang umum digunakan, misalnya Deltametrin (misalnya decis 25 EC) 1-2 ml/lt air.</cara>
+      </pengendalian>
+    </hama>
+
+    <hama id="3">
+      <nama>Hama Ulat Grayak</nama>
+      <deskripsi>
+        <p>Ulat grayak menyerang tanaman <i>Acacia</i> sp. terutama pada pembibitan di polybag. Serangan berat terjadi sebagai akibat monitoring keberadaan telur, larva dan imago yang sudah terlambat.</p>
+      </deskripsi>
+      <spesies><i>Spodoptera litura</i>, (<i>Lepidoptera;Noctuidae</i>)</species>
+      <biologi_hama>
+        <ciri_hama>Stadia yang merusak adalah larva (ulat).</ciri_hama>
+        <ciri_hama>Hama ini aktif pada malam hari dan bersembunyi dalam tanah atau di bawah rak dan di bawah rak dan di bawah polybag pada siang hari.</ciri_hama>
+        <ciri_hama>Menyerang dalam jumlah populasi yang besar sehingga tanaman rusak dalam waktu singkat.</ciri_hama>
+        <ciri_hama>Populasi hama akan meningkat pada musim hujan.</ciri_hama>
+        <ciri_hama>Intensitas serangan cukup tinggi pada musim kemarau panjang yang diikuti musim hujan berat.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Daun berlubang dan bergigi.</ciri>
+        <ciri>Bila shoot atau pucuk tanaman habis dimakan ulat akan muncul tunas samping yang akan mengganggu pertumbuhan tanaman.</ciri>
+        <ciri>Pada serangan berat dapat mematikan tanaman dalam jumlah yang besar.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Melakukan monitoring secara teratur.</cara>
+        <cara>Mengumpulkan dan memusnahkan telur dan larva atau ulat secara rutin.</cara>
+        <cara>Memasang perangkap lampu pada malam hari (imago/kupu-kupu)</cara>
+        <cara>Melakukan penyemprotan insektisida berbahan aktif Metomil (misalnya Lannate 25 WP) dengan konsentrasi yang sama. Penyemprotan dilakukan pada sore atau malam hari.</cara>
+        <cara>Bibit pada polybag diletakkan pada rak-rak yang cukup tinggi atau membagi bedengan bibit dengan beberapa jalur atau sekat.</cara>
+      </pengendalian>
+      <tempat>Nursery Minas, Nursery Siak, Nursery Pulau Muda dan Nursery Makmur (BBD).</tempat>
+    </hama>
+
+    <hama id="4">
+      <nama>Hama Penghisap Pucuk</nama>
+      <deskripsi>
+        <p>Hama penghisap pucuk akan berkembang pesat bila didukung oleh kondisi lingkungan nursery yang lembab, teduh dan perawatan yang tidak maksimum. Kerusakan yang diakibatkannya adalah sangat fatal karena pucuk-pucuk bibit akan mati dan munculnya pathogen sekunder pada bekas hisapan.</p>
+      </deskripsi>
+      <spesies><i>Helopelthis</i> sp. (<i>hemiptera;Miridae</i>)</spesies>
+      <biologi_hama>
+        <ciri_hama>Ukuran kecil (dewasa 5-7 mm).</ciri_hama>
+        <ciri_hama>Abdomen (perut) berwarna hijau kebiruan, kepala, thorak, tungkai dan antena berwarna cokelat kekuningan, antene berbentuk filifom, sayap dua pasang berwarna abu-abu kehitaman.</ciri_hama>
+        <ciri_hama>Pada thorak ada tanda seperti jarum pentul yang warnanya sama dengan thorak.</ciri_hama>
+        <ciri_hama>Serangga muda (nimfa) berwarna hijau kekuningan dan belum bersayap.</ciri_hama>
+        <ciri_hama>Hama merusak dengan cara menghisap cairan tanaman.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Tunas muda yang baru tumbuh menjadi bercak-bercak cokelat hitam.</ciri>
+        <ciri>Serangan pada daun yang belum berkembang daun menjadi mengkerut.</ciri>
+        <ciri>Serangan pada tunas akan mematikan tunas tersebut sehingga muncul tunas-tunas samping yang menghambat pertumbuhan tanaman.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Melakukan monitoring dini untuk deteksi awal keberadaan hama <i>Helopelthis</i> sp.</cara>
+        <cara>Menjaga kelembaban dan kebersihan nursery.</cara>
+        <cara>Pengendalian secara kimia dengan penyemprotan insektisida berbahan aktif Metomil (misalnya Lannate 25 WP) dan Deltametrin (misalnya Decis 25 EC) dengan konsentrasi 12 gr atau ml/l air, Prefenofos 500g/lt (misalnya Pentacron) 0,5 ml/lt air. Penyemprotan dilakukan pagi hari atau sore hari.</cara>
+      </pengendalian>
+      <tempat>Nursery Duri, Nursery Minas, dan Nursery Sorek.</tempat>
+    </hama>
+
+    <hama id="5">
+      <nama>Hama Kumbang Pemakan Daun</nama>
+      <deskripsi>
+      </deskripsi>
+      <spesies><i>Hypomeces squamosus</i> (<i>Curculionidae;Coleoptera</i>)</spesies>
+      <biologi_hama>
+        <ciri_hama>Jenis kumbang dengan panjang tubuh 1,3-1,5 cm.</ciri_hama>
+        <ciri_hama>Tubuhnya ditutupi oleh tepung berwarna hijau kekuningan.</ciri_hama>
+        <ciri_hama>Stadia telur, larva dan pupa pada tanah kering.</ciri_hama>
+        <ciri_hama>Stadia yang merusak adalah bentuk kumbang.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Daun berlubang-lubang.</ciri>
+        <ciri>Daun dimakan secara tidak beraturan, tulang daun utama tidak dimakan.</ciri>
+        <ciri>Umumnya makan dari tepi daun.</ciri>
+        <ciri>Jika tanaman digerakkan, kumbang akan langsung menjatuhkan diri ke tanah.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Penyemprotan insektisida berbahan aktif Profenofos 500 g/lt (misalnya Pentacron) dengan konsentrasi 0,5-1 ml/lt air dengan alat mist blower.</cara>
+      </pengendalian>
+      <tempat>Nursery Distrik Minas.</tempat>
+    </hama>
+
+    <hama id="6">
+      <nama>Hama Belalang</nama>
+      <deskripsi>
+        Hama belalang ditemukan pada nursery yang baru dibuka atau terletak di dekat berlukar atau hutan. Srangan umumnya sporadis dan musiman.
+      </deskripsi>
+      <spesies><i>Valangan nigricornis (Acrididae : Orthoptera).</i></spesies>
+      <biologi_hama>
+        <ciri_hama>Belalang bertelur di awal musim kemarau dan menetas di awal musim hujan.</ciri_hama>
+        <ciri_hama>Telur diletakan pada tanah berpasir atau gembur.</ciri_hama>
+        <ciri_hama>Belalang dapat bertahan hidup 3 - 5 bulan.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Daun berlubang - lubang.</ciri>
+        <ciri>Daun dimakan secara tak beraturan, tulang daun utamam tidak dimakan.</ciri>
+        <ciri>Umumnya makan dari tepi daun.</ciri>
+        <ciri>Belalang dewasa dapat memakan bunga, daun, tunas, dan kulit acacia yang masih hijau.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Penyemprotan insektisida berbahan aktif Metomil (misalnya Lannate 25 WP), Profenofos 500g/lt (misalnya Pentacron) dengan konsentrasi 1 - 2 ml atau gr/l air.</cara>
+      </pengendalian>
+      <tempat>Nursery</tempat>
+    </hama>
+
+    <hama id="7">
+      <nama>Hama Jangkrik</nama>
+      <deskripsi>
+        Hama jangkrik menyerang tanaman di nursery polybag. Populasi jangkrik akan banyak ditemukan di nursery yang dekat dengan area bekas terbakar.
+      </deskripsi>
+      <spesies><i>Acheta domaticus</i> (Gryllidae : Orthoptera)</spesies>
+      <biologi_hama>
+        <ciri_hama>Jangkrik meletakkan telurnya pada tanah berpasir atau gembur yang lembab.</ciri_hama>
+        <ciri_hama>Satu ekor betina dapat menghasilkan telur sebanyak 200 - 700 teluryang dapat menetas 100% bila kondisi lingkungannya mendukung.</ciri_hama>
+        <ciri_hama>Nympha mengalami 2 kali ganti kulit.</ciri_hama>
+        <ciri_hama>Siklus hidup jangkrik adalah 15 minggu.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Adanya bekas luka bergerigi pada pangkal batang.</ciri>
+        <ciri>Pada serangan berat pangkal batang menjadi patah dan tanaman mati.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Bibit pada polybag atau tube diletakkan pada rak - rak yang cukup tinggi.</cara>
+        <cara>Menjaga kebersihan dan kerapian nursery.</cara>
+        <cara>Penyemprotan insektisida berbahan aktif metomil (misalnya Lannate 25 WP)</cara>
+        <cara>Profenofos 500 g/lt (misalnya Pentacron) dengan konsentrasi 1 - 2 ml atau gr/l air.</cara>
+      </pengendalian>
+      <tempat>Nursery</tempat>
+    </hama>
+
+    <hama id="8">
+      <deskripsi>
+        Hama kutu hijau adalah hama yang baru ditemukan yang menyerang pada tanaman <i>Acacia Crassicarpa</i> dan <i>A. Mangium</i>. Bioekologi hama ini belum banyak diketahui. Serangan ditemukan pada area yang beratap atau shade net.
+      </deskripsi>
+      <spesies>Belum teridentifikasi (Psyllidae : Homoptera)</spesies>
+      <biologi_hama>
+        <ciri_hama>Nimfa aktif bergerak, memiliki mata berwarna putih.</ciri_hama>
+        <ciri_hama>Dewasa (imago) bersayap aktif terbang bila diganggu.</ciri_hama>
+        <ciri_hama>Nimfa dan imago berwarna hijau muda dan terang.</ciri_hama>
+      </biologi_hama>
+      <gejala>
+        <ciri>Menyerang bibit mulai dari munculnya daun asli.</ciri>
+        <ciri>Daun asli tanaman <i>A. crassicarpa</i> dan <i>A. mangium</i> tidak berkembang sempurna dan sebagian anak daun menguning kemudia mengering.</ciri>
+        <ciri>pada serangan berat, daun palsu (pylloid) juga berkembang tidak normal, jarak antar daun (node) pendek dan tanaman menjadi kerdil.</ciri>
+        <ciri>Imago dan nimfa banyak ditemukan di permukaan daun bagian bawah.</ciri>
+      </gejala>
+      <pengendalian>
+        <cara>Monitoring rutin terhadap keberadaan imago, nimfa, dan pupa kutu hijau.</cara>
+        <cara>Penyemprotan insektisida berbahan aktif Imidakloprid (misalnya Dagger) dengan konsentrasi 0.5 - 1 ml/lt, Metomil (misalnya Lannate 25 WP) dengan konsentrasi 1 - 2 gr/lt ait, 2x/minggu untuk serangan berat dengan konsentrasi setengah lebih rendan dan 1x/minggu untuk yang ringan dengan konsentrasi normal.</cara>
+      </pengendalian>
+      <tempat>Nursery</tempat>
+    </hama>
+  </acacia_mangium>
+</tanaman_inang>
+
+/////////////////////////////////////////////////
+nursery
+
+penyakit
+1
+2
+3
+5
+6
+7
+8
+12
+
+Hama
+1
+2
+3
+4
+5
+6
+7
+9
+10
+11
+////////////////////////////////////////////////////
+
+//Penjelasan//
+acacia_crassicarpa memiliki :
+1. 15 penyakit = 
+    1. Rebah Kecambah(Damping-off)
+    2. Bercak Daun
+    3. Busuk Akar(Root Rot Disease)
+    4. 
+2. 10 hama
+
+acacia_mangium memiliki :
+1. 11 penyakit
+2. 8 penyakit

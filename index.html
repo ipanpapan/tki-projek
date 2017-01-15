@@ -1,0 +1,216 @@
+<html>
+<head>        
+    <title>ATS - {{ title }}</title>            
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- END META SECTION -->
+    
+    <!-- CSS INCLUDE -->        
+    <link  rel="stylesheet" type="text/css" href = "{{ url_for('static', filename = 'css/style.css') }}" />
+    <!-- EOF CSS INCLUDE -->  
+
+  	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css--> 
+    <link  rel="stylesheet" type="text/css" href = "{{ url_for('static', filename = 'css/materialize.css') }}" media="screen,projection"/>  
+	<link  rel="stylesheet" type="text/css" href = "{{ url_for('static', filename = 'css/w3.css') }}" > 
+	<style>
+	/* Center the loader */
+	#loader {
+	  position: absolute;
+	  left: 50%;
+	  top: 50%;
+	  z-index: 1;
+	  width: 150px;
+	  height: 150px;
+	  margin: -75px 0 0 -75px;
+	  border: 16px solid #f3f3f3;
+	  border-radius: 50%;
+	  border-top: 16px solid #16A085;
+	  border-right: 16px solid #36D7B7;
+	  border-bottom: 16px solid #16A085;
+	  border-left: 16px solid #36D7B7;
+	  width: 120px;
+	  height: 120px;
+	  -webkit-animation: spin 2s linear infinite;
+	  animation: spin 2s linear infinite;
+	}
+
+	@-webkit-keyframes spin {
+	  0% { -webkit-transform: rotate(0deg); }
+	  100% { -webkit-transform: rotate(360deg); }
+	}
+
+	@keyframes spin {
+	  0% { transform: rotate(0deg); }
+	  100% { transform: rotate(360deg); }
+	}
+
+	/* Add animation to "page content" */
+	.animate-bottom {
+	  position: relative;
+	  -webkit-animation-name: animatebottom;
+	  -webkit-animation-duration: 1s;
+	  animation-name: animatebottom;
+	  animation-duration: 1s
+	}
+
+	@-webkit-keyframes animatebottom {
+	  from { bottom:-100px; opacity:0 } 
+	  to { bottom:0px; opacity:1 }
+	}
+
+	@keyframes animatebottom { 
+	  from{ bottom:-100px; opacity:0 } 
+	  to{ bottom:0; opacity:1 }
+	}
+
+	#myDiv {
+	  display: none;
+	  text-align: center;
+	}
+	</style>
+</head>
+<body onload="myFunction()" style="margin:0;">
+	<div id="loader"></div>
+	<div class="row">
+  		<div class="col s12">
+		    <ul class="tabs">
+				<li class="tab col s12"><a href="#index"><span>Automatic Text Summarization Using Indonesia Language</span></a></li>
+		    </ul>
+		</div>
+		<div style="display:none;" id="myDiv" class="animate-bottom">
+		<div id="test1" class="col s12">
+			<br><br>
+			<div class="container">
+			</div>
+			<br><br><br>
+			<div class="container">
+				<form action="/ringkas" method="POST" role="form">
+					<div class="row">
+				        <div class="input-field col s12">
+				          <input id="url" name="url" type="text" class="validate">
+				          <label for="query" data-error="wrong" data-success="right">Masukan URL Berita {{ hasil }}</label>
+				        </div>
+				    </div>
+				    <div class="row">
+				    	<button class="waves-effect waves-light btn" id="buttonRingkas" onclick="progress();this.disabled='true'">Ringkas</button>
+				    	<!--<button class="waves-effect waves-light btn" onclick="refresh()">Hapus</button>-->
+				    </div>
+				</form>
+			</div>
+			<div class="container">
+				<div class="row">
+				  <div class="w3-progress-container">
+				    <div id="myBar" class="w3-progressbar w3-lime" style="width:0%">
+				    	<div id="label" class="w3-center w3-text-white"></div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="container">
+				<div class="row">
+					<textarea id="textarea1" class="materialize-textarea" placeholder="Hasil ringkas disini..."></textarea>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="fixed-action-btn toolbar">
+		    <a class="btn-floating btn-large teal">
+		      <i class="large material-icons">menu</i>
+		    </a>
+		    <ul>
+		      <li class="waves-effect waves-light"><a href="#!">About us</a></li>
+		      <li class="waves-effect waves-light"><a href="#!">Algorithm</a></li>
+		      <li class="waves-effect waves-light"><a href="#!">Benchmark</a></li>
+		      <li class="waves-effect waves-light"><a href="#!">Accuration</a></li>
+		    </ul>
+		  </div>
+	</div>
+
+	<script type="text/javascript" src = "{{ url_for('static', filename = 'js/style.js') }}"></script>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src = "{{ url_for('static', filename = 'js/materialize.min.js') }}"></script>
+    <script type="text/javascript" src = "{{ url_for('static', filename = 'js/notify/notify.js') }}"></script>
+    <script type="text/javascript" src = "{{ url_for('static', filename = 'js/notify/notify.min.js') }}"></script>
+
+    <script type="text/javascript">
+   		$(document).ready(function(){
+	    	$('ul.tabs').tabs();
+	  	});
+    </script>
+    <script type="text/javascript">
+		 $(document).ready(function(){
+		    $('ul.tabs').tabs('select_tab', 'tab_id');
+		  });
+    </script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		    $('select').material_select();
+		 });
+	</script>
+	<script type="text/javascript">
+		function progress() {
+		  var elem = document.getElementById("myBar");   
+		  var width = 1;
+		  var id = setInterval(frame, 10);
+		  function frame() {
+		    if (width >= 100) {
+		      clearInterval(id);
+		    } else {
+		      width++; 
+		      elem.style.width = width + '%'; 
+	 		  document.getElementById("label").innerHTML = width * 1  + '%';
+	 			if(width == 100) {
+	 				document.getElementById("label").innerHTML = "pencarian selesai";
+					var url = $('#url').val();
+		            $.ajax({
+		                url: '/ringkas',
+		                type: 'POST',
+		                data: {
+		                    'url' : $('#url').val()
+		                },
+		                success: function(response) {
+			       			$.notify("URL "+ {{ hasil }} + " berhasil diringkas", "success");
+		                },
+		                error: function(error) {
+		                	$.notify("URL "+ {{ hasil }} + " tidak berhasil diringkas", "error");
+		                }
+		            });
+	 			}
+		    }
+		  }
+		}		
+	</script>
+
+	<script type="text/javascript">
+		function refresh() {
+			$('$buttonRingkas').this.enabled = 'True';
+			$('#url').val('');
+		}
+	</script>
+
+	<script type="text/javascript">
+	  $('.fixed-action-btn.toolbar').openToolbar();
+	  $('.fixed-action-btn.toolbar').closeToolbar();		
+	</script>
+
+	<script>
+	var myVar;
+	function myFunction() {
+	    myVar = setTimeout(showPage, 1500);
+	}
+	function showPage() {
+	  document.getElementById("loader").style.display = "none";
+	  document.getElementById("myDiv").style.display = "block";
+	}
+	</script>
+</body>
+</html>
