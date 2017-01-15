@@ -74,69 +74,83 @@
 	</style>
 </head>
 <body onload="myFunction()" style="margin:0;">
+	{% block body %}
 	<div id="loader"></div>
+	{% if session.alert %}
+	 	<script type="text/javascript">
+	         Materialize.toast('<a class="btn" onload="Materialize.toast('Oops, input must be URL', 4000)">');
+	        //alert("Oops, input must be URL");
+	    </script>
+	{% endif %}
 	<div class="row">
   		<div class="col s12">
 		    <ul class="tabs">
-				<li class="tab col s12"><a href="#index"><span>Automatic Text Summarization Using Indonesia Language</span></a></li>
+				<li class="tab col s12"><a href="{{ url_for('index') }}"><span>Automatic Text Summarization Using Indonesia Language</span></a></li>
 		    </ul>
 		</div>
 		<div style="display:none;" id="myDiv" class="animate-bottom">
-		<div id="test1" class="col s12">
-			<br><br>
-			<div class="container">
-			</div>
-			<br><br><br>
-			<div class="container">
-				<form action="/ringkas" method="POST" role="form">
+			<div id="test1" class="col s12">
+				<br><br>
+				<div class="container">
+				</div>
+				<br><br><br>
+				<div class="container">
+					<form action="/ringkas" method="POST" role="form">
+						<div class="row">
+					        <div class="input-field col s12">
+					          <input id="url" name="url" type="text" class="validate">
+					          <label for="query" data-error="wrong" data-success="right">Input a news URL</label>
+					        </div>
+					        <div class="input-field col s12">
+					          <input id="count_sentence" name="count_sentence" type="number" class="validate" min="1">
+					          <label for="query" data-error="wrong" data-success="right">Input the number of summary sentence</label>
+					        </div>
+					    </div>
+					    <div class="row">
+					    	<button class="waves-effect waves-light btn" id="buttonRingkas" onclick="progress();this.disabled='true'">Ringkas</button>
+					    	<!--<button class="waves-effect waves-light btn" onclick="refresh()">Hapus</button>-->
+					    </div>
+					</form>
+				</div>
+				<div class="container">
 					<div class="row">
-				        <div class="input-field col s12">
-				          <input id="url" name="url" type="text" class="validate">
-				          <label for="query" data-error="wrong" data-success="right">Masukan URL Berita</label>
-				        </div>
-				    </div>
-				    <div class="row">
-				    	<button class="waves-effect waves-light btn" id="buttonRingkas" onclick="progress();this.disabled='true'">Ringkas</button>
-				    	<!--<button class="waves-effect waves-light btn" onclick="refresh()">Hapus</button>-->
-				    </div>
-				</form>
-			</div>
-			<div class="container">
-				<div class="row">
-				  <div class="w3-progress-container">
-				    <div id="myBar" class="w3-progressbar w3-lime" style="width:0%">
-				    	<div id="label" class="w3-center w3-text-white"></div>
-				    </div>
-				  </div>
+					  <div class="w3-progress-container">
+					    <div id="myBar" class="w3-progressbar w3-lime" style="width:0%">
+					    	<div id="label" class="w3-center w3-text-white"></div>
+					    </div>
+					  </div>
+					</div>
 				</div>
-			</div>
-			<br>
-			<br>
-			<br>
-			<div class="container">
-				<div class="row">
-					<textarea id="textarea1" class="materialize-textarea" placeholder="Hasil ringkas disini...">
-						{% for item in hasil %}
-							{{ item }} 
-						{% endfor %}
-					</textarea>
+				<br>
+				<br>
+				<br>
+				<div class="container">
+					<div class="row">
+					Hasil Ringkas :
+						<textarea id="textarea1" class="materialize-textarea" placeholder="Hasil ringkas disini...">
+							{% for item in hasil %}
+								{{ item }} 
+							{% endfor %}
+						</textarea>
+					</div>
 				</div>
 			</div>
 
+			<div class="fixed-action-btn toolbar">
+			    <a class="btn-floating btn-large teal">
+			      <i class="large material-icons">menu</i>
+			    </a>
+			    <ul>
+			      <li class="waves-effect waves-light"><a href="#!">About us</a></li>
+			      <li class="waves-effect waves-light"><a href="#!">Algorithm</a></li>
+			      <li class="waves-effect waves-light"><a href="#!">Benchmark</a></li>
+			      <li class="waves-effect waves-light"><a href="#!">Accuration</a></li>
+			    </ul>
+			  </div>
 		</div>
+	</div>	
+	{% endblock %}
 
-		<div class="fixed-action-btn toolbar">
-		    <a class="btn-floating btn-large teal">
-		      <i class="large material-icons">menu</i>
-		    </a>
-		    <ul>
-		      <li class="waves-effect waves-light"><a href="#!">About us</a></li>
-		      <li class="waves-effect waves-light"><a href="#!">Algorithm</a></li>
-		      <li class="waves-effect waves-light"><a href="#!">Benchmark</a></li>
-		      <li class="waves-effect waves-light"><a href="#!">Accuration</a></li>
-		    </ul>
-		  </div>
-	</div>
 
 	<script type="text/javascript" src = "{{ url_for('static', filename = 'js/style.js') }}"></script>
     <!--Import jQuery before materialize.js-->
@@ -176,8 +190,8 @@
 	 				document.getElementById("label").innerHTML = "pencarian selesai";
 					var url = $('#url').val();
 		            $.ajax({
+		            	type: 'POST',
 		                url: '/ringkas',
-		                type: 'POST',
 		                data: {
 		                    'url' : $('#url').val()
 		                },
@@ -216,5 +230,12 @@
 	  document.getElementById("myDiv").style.display = "block";
 	}
 	</script>
+
+ 	<script type="text/javascript">
+ 		function alertError() {
+            //Materialize.toast('<a class="btn" onload="Materialize.toast('Oops, input must be URL', 2000)">');
+            alert("Oops, input must be URL");
+        }
+    </script>
 </body>
 </html>

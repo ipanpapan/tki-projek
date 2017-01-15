@@ -1,5 +1,6 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, session, redirect, url_for
 from sum import summari
+import os
 
 app = Flask(__name__)
 
@@ -10,8 +11,13 @@ def index():
 @app.route("/ringkas", methods=['GET', 'POST'])
 def ringkas():
 	url = request.form['url']
-	hasilAsli = summari(url)
-	return render_template("index.html", hasil=hasilAsli)
+	try:
+		count_sentence = request.form['count_sentence']
+		hasilAsli = summari(url, count_sentence)
+		return render_template("index.html", hasil=hasilAsli, title="Result of Summarization")
+	except:
+		session['alert'] = True
+		return render_template("index.html", title="The Result is Wrong")
 	# if request.method == 'POST':
 	# 	url = request.form['url']
 	# 	return render_template('index.html', hasil='kasjdas')
@@ -19,4 +25,6 @@ def ringkas():
 	# 	return 'haha'
 
 if __name__ == "__main__":
-    app.run(debug=True)
+	app.secret_key = os.urandom(24)
+	app.run(debug=True)
+	app.run()

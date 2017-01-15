@@ -11,10 +11,10 @@ from sumy.utils import get_stop_words
 
 LANGUAGE = "english"
 LANGUAGE2 = "bahasa"
-SENTENCES_COUNT = 3
+#SENTENCES_COUNT = 3
 
 
-def summari(urlAsli):
+def summari(urlAsli, SENTENCES_COUNT):
     url = urlAsli
     parser = HtmlParser.from_url(url, Tokenizer(LANGUAGE))
     # or for plain text files
