@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+     
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <!-- END META SECTION -->
     
@@ -76,16 +76,16 @@
 <body onload="myFunction()" style="margin:0;">
 	{% block body %}
 	<div id="loader"></div>
-	{% if session.alert %}
+	<!-- {% if session.alert %}
 	 	<script type="text/javascript">
-	         Materialize.toast('<a class="btn" onload="Materialize.toast('Oops, input must be URL', 4000)">');
-	        //alert("Oops, input must be URL");
+	        Materialize.toast('<a class="btn" onload="Materialize.toast('Oops, input must be URL', 4000)">');
+	        alert("Oops, input must be URL");
 	    </script>
-	{% endif %}
+	{% endif %} -->
 	<div class="row">
   		<div class="col s12">
 		    <ul class="tabs">
-				<li class="tab col s12"><a href="{{ url_for('index') }}"><span>Automatic Text Summarization Using Indonesia Language</span></a></li>
+				<li class="tab col s12"><a href="{{ url_for('index') }}"><span>Automatic Text Summarization Using Bahasa & English Language</span></a></li>
 		    </ul>
 		</div>
 		<div style="display:none;" id="myDiv" class="animate-bottom">
@@ -97,6 +97,14 @@
 				<div class="container">
 					<form action="/ringkas" method="POST" role="form">
 						<div class="row">
+							<div class="input-field col s12">
+							    <select id="language" name="language">
+							      <option value="" disabled selected>Choose your languge</option>
+							      <option value="bahasa">Bahasa Indonesa</option>
+							      <option value="english">English</option>
+							    </select>
+							    <label for="query" data-error="wrong" data-success="right">Language Select</label>
+					        </div>
 					        <div class="input-field col s12">
 					          <input id="url" name="url" type="text" class="validate">
 					          <label for="query" data-error="wrong" data-success="right">Input a news URL</label>
@@ -110,7 +118,7 @@
 					    	<button class="waves-effect waves-light btn" id="buttonRingkas" onclick="progress();this.disabled='true'">Ringkas</button>
 					    	<!--<button class="waves-effect waves-light btn" onclick="refresh()">Hapus</button>-->
 					    </div>
-					</form>
+				    </form>
 				</div>
 				<div class="container">
 					<div class="row">
@@ -121,17 +129,22 @@
 					  </div>
 					</div>
 				</div>
-				<br>
-				<br>
-				<br>
 				<div class="container">
 					<div class="row">
-					Hasil Ringkas :
-						<textarea id="textarea1" class="materialize-textarea" placeholder="Hasil ringkas disini...">
-							{% for item in hasil %}
-								{{ item }} 
-							{% endfor %}
-						</textarea>
+					Result of Summarization :
+					<br>
+					<b>{{ url }}</b>
+					<br>
+					<br>
+					<div class="row">
+						<!--<textarea id="textarea1" class="materialize-textarea" placeholder="Hasil ringkas disini...">-->
+						{% if not hasil %}
+							<p> here... </p>
+						{% endif %}
+						{% for item in hasil %}
+							{{ item }} 
+						{% endfor %}	
+						<!--</textarea>-->
 					</div>
 				</div>
 			</div>
@@ -189,17 +202,20 @@
 	 			if(width == 100) {
 	 				document.getElementById("label").innerHTML = "pencarian selesai";
 					var url = $('#url').val();
+
 		            $.ajax({
 		            	type: 'POST',
 		                url: '/ringkas',
 		                data: {
+		                    'language' : $('#language').val()
 		                    'url' : $('#url').val()
+		                    'count_sentence' : $('#count_sentence').val()
 		                },
 		                success: function(response) {
-			       			$.notify("URL berhasil diringkas", "success");
+			       			$.notify("URL" +url+ "berhasil diringkas", "success");
 		                },
 		                error: function(error) {
-		                	$.notify("URL tidak berhasil diringkas", "error");
+		                	$.notify("URL" +url+ "tidak berhasil diringkas", "error");
 		                }
 		            });
 	 			}
@@ -232,10 +248,12 @@
 	</script>
 
  	<script type="text/javascript">
- 		function alertError() {
-            //Materialize.toast('<a class="btn" onload="Materialize.toast('Oops, input must be URL', 2000)">');
-            alert("Oops, input must be URL");
-        }
+ 		{% if session.alert %}
+ 			$(document).ready(function()
+ 			{
+ 				Materialize.toast('Oops, The input must be URL', 4000);
+ 			})
+ 		{% endif %}
     </script>
 </body>
 </html>

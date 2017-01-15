@@ -6,23 +6,26 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
+	session['alert'] = False
 	return render_template("index.html", title="Automatic Text Summarization")
 
 @app.route("/ringkas", methods=['GET', 'POST'])
 def ringkas():
-	url = request.form['url']
 	try:
+		session['alert'] = False
+		language = request.form['language']
+		url = request.form['url']
 		count_sentence = request.form['count_sentence']
-		hasilAsli = summari(url, count_sentence)
-		return render_template("index.html", hasil=hasilAsli, title="Result of Summarization")
+		hasilAsli = summari(language, url, count_sentence)
+		return render_template("index.html", hasil=hasilAsli, url=url, title="Result of Summarization")
 	except:
-		session['alert'] = True
-		return render_template("index.html", title="The Result is Wrong")
-	# if request.method == 'POST':
-	# 	url = request.form['url']
-	# 	return render_template('index.html', hasil='kasjdas')
-	# else:
-	# 	return 'haha'
+		return redirect(url_for('alert'))
+
+@app.route("/index", methods=['GET', 'POST'])
+def alert():
+	session['alert'] = True
+	return render_template("index.html", title="This Result is Wrong")
+
 
 if __name__ == "__main__":
 	app.secret_key = os.urandom(24)

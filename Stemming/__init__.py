@@ -1,6 +1,6 @@
 import urllib2
 from bs4 import BeautifulSoup
-from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+from Stemmer.StemmerFactory import StemmerFactory
 
 def StartStem(url):
 	page = urllib2.urlopen(url)
