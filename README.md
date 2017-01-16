@@ -1,6 +1,6 @@
 Demo :
 
-Result of Summarization (using bahasa using bahasa and 3 sentences) :
+Result of Summarization (using bahasa and 3 sentences) :
 http://megapolitan.kompas.com/read/2017/01/14/22402371/ahok.akan.jadikan.waduk.melati.di.tanah.abang.jadi.pusat.fashion.
 
 Kita ingin jadikan Waduk Melati jadi pusat," ujar Ahok di Kawasan SCBD, Jakarta Selatan, Sabtu (14/1/2017) malam. 
