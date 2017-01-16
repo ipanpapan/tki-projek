@@ -50,8 +50,8 @@ def expand_resource_path(path):
 
 
 def get_stop_words(language):
-    try:
-        stopwords_data = pkgutil.get_data("sumy", "data/stopwords/%s.txt" % language)
+    try: 
+        stopwords_data = pkgutil.get_data("Summarize", "data/stopwords/%s.txt" % language)
     except IOError as e:
         raise LookupError("Stop-words are not available for language %s." % language)
     return parse_stop_words(stopwords_data)

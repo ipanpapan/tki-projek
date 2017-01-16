@@ -23,7 +23,7 @@ class LsaSummarizer(AbstractSummarizer):
     MIN_DIMENSIONS = 3
     REDUCTION_RATIO = 1/1
     _stop_words = frozenset()
-
+ 
     @property
     def stop_words(self):
         return self._stop_words

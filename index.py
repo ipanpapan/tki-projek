@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, session, redirect, url_for
-from sum import summari
+from sum import summary
 import os
 
 app = Flask(__name__)
@@ -16,7 +16,7 @@ def ringkas():
 		language = request.form['language']
 		url = request.form['url']
 		count_sentence = request.form['count_sentence']
-		hasilAsli = summari(language, url, count_sentence)
+		hasilAsli = summary(language, url, count_sentence)
 		return render_template("index.html", hasil=hasilAsli, url=url, bahasa=language, jumlah=count_sentence, title="Result of Summarization")
 	except:
 		return redirect(url_for('alert'))

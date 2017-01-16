@@ -14,11 +14,11 @@ def null_stemmer(object):
     "Converts given object to unicode with lower letters."
     return to_unicode(object).lower()
 
-
+ 
 class Stemmer(object):
     def __init__(self, language):
         self._stemmer = null_stemmer
-        if language.lower() in ('czech', 'slovak','indonesia'):
+        if language.lower() in ('bahasa', 'english'):
             self._stemmer = stemming
             return
         stemmer_classname = language.capitalize() + 'Stemmer'

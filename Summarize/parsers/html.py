@@ -6,7 +6,7 @@ from __future__ import division, print_function, unicode_literals
 from breadability.readable import Article
 from ..utils import cached_property, fetch_url
 from ..models.dom import Sentence, Paragraph, ObjectDocumentModel
-from .parser import DocumentParser
+from .parser import DocumentParser 
 
 
 class HtmlParser(DocumentParser):
@@ -14,10 +14,10 @@ class HtmlParser(DocumentParser):
 
     SIGNIFICANT_TAGS = (
         "h1", "h2", "h3",
-        "b", "strong",
-        "big",
+        "p", "b", "strong",
+        "big", 
         "dfn",
-        "em",
+        "em", 
     )
 
     @classmethod
@@ -89,7 +89,7 @@ class HtmlParser(DocumentParser):
 
             current_text = ""
             for text, annotations in paragraph:
-                if annotations and ("h1" in annotations or "h2" in annotations or "h3" in annotations):
+                if annotations and ("h1" in annotations or "h2" in annotations or "h3" in annotations or "p" in annotations):
                     sentences.append(Sentence(text, self._tokenizer, is_heading=True))
                 # skip <pre> nodes
                 elif not (annotations and "pre" in annotations):
