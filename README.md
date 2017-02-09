@@ -1,3 +1,5 @@
+Automatic Text Summarization using Latent Semantic Analysis
+
 Demo :
 
 Result of Summarization (using bahasa and 3 sentences) :
